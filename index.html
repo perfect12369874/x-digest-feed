@@ -2,6 +2,7 @@
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8"/>
+<meta name="referrer" content="no-referrer"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <title>X 情报</title>
 <style>
@@ -73,11 +74,11 @@ function mediaHtml(media){
     const url = m.url || '';
     const preview = m.preview_url || m.preview || '';
     if(type === 'video' || type === 'animated_gif'){
-      if(url) return `<video controls playsinline preload="metadata" poster="${esc(preview)}"><source src="${esc(url)}" type="video/mp4"></video>`;
-      if(preview) return `<a href="${esc(m.page_url||'#')}" target="_blank" rel="noopener"><img src="${esc(preview)}" alt="video"/></a>`;
+      if(url) return `<video controls playsinline preload="metadata" referrerpolicy="no-referrer" poster="${esc(preview)}"><source src="${esc(url)}" type="video/mp4"></video>`;
+      if(preview) return `<a href="${esc(m.page_url||'#')}" target="_blank" rel="noopener noreferrer"><img src="${esc(preview)}" alt="video" referrerpolicy="no-referrer" loading="lazy"/></a>`;
       return '';
     }
-    if(url || preview) return `<img src="${esc(url||preview)}" alt="" loading="lazy"/>`;
+    if(url || preview) return `<img src="${esc(url||preview)}" alt="" loading="lazy" referrerpolicy="no-referrer"/>`;
     return '';
   }).join('') + '</div>';
 }
