@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>X 情报</title>
+<style>
+  :root {
+    --bg:#0b0d10; --card:#151a21; --text:#e8eaed; --muted:#9aa3ad;
+    --line:#243041; --a:#7dd3fc; --b:#fbbf24; --chip:#1f2937;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+       background:var(--bg);color:var(--text)}
+  header{position:sticky;top:0;z-index:2;backdrop-filter:blur(10px);
+         background:rgba(11,13,16,.9);border-bottom:1px solid var(--line);
+         padding:14px 16px}
+  h1{margin:0;font-size:18px;font-weight:650}
+  .meta{color:var(--muted);font-size:13px;margin-top:4px}
+  nav{display:flex;gap:8px;margin-top:10px}
+  nav a{color:var(--muted);text-decoration:none;padding:6px 10px;border-radius:999px;
+        background:var(--chip);font-size:13px}
+  nav a.active{color:#0b0d10;background:var(--a);font-weight:600}
+  main{max-width:720px;margin:0 auto;padding:16px}
+  section{display:none}
+  section.show{display:block}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;
+        padding:14px 14px 12px;margin:0 0 12px}
+  .author{font-size:13px;color:var(--a);font-weight:600}
+  .text{margin:8px 0;white-space:pre-wrap;word-break:break-word}
+  .why,.heat{font-size:12px;color:var(--muted)}
+  .why{margin-top:6px}
+  .link{display:inline-block;margin-top:8px;font-size:12px;color:var(--b);text-decoration:none}
+  .empty{color:var(--muted);padding:40px 8px;text-align:center}
+  .tag{display:inline-block;font-size:11px;padding:2px 8px;border-radius:999px;
+       background:var(--chip);color:var(--muted);margin-bottom:8px}
+</style>
+</head>
+<body>
+<header>
+  <h1>X 情报</h1>
+  <div class="meta" id="meta">加载中…</div>
+  <nav>
+    <a href="#related" id="tab-related" class="active">相关</a>
+    <a href="#hot" id="tab-hot">全站最热</a>
+  </nav>
+</header>
+<main>
+  <section id="related" class="show"></section>
+  <section id="hot"></section>
+</main>
+<script>
+async function load(){
+  const r = await fetch('data/latest.json?_=' + Date.now());
+  const d = await r.json();
+  document.getElementById('meta').textContent =
+    (d.date || '') + (d.updated_at ? ' · 更新 ' + d.updated_at : '');
+  render('related', d.related || [], '相关');
+  render('hot', d.hot || [], '全站最热');
+  document.getElementById('tab-related').textContent = '相关 ' + (d.related||[]).length;
+  document.getElementById('tab-hot').textContent = '全站最热 ' + (d.hot||[]).length;
+}
+function render(id, items, label){
+  const el = document.getElementById(id);
+  if(!items.length){ el.innerHTML = '<div class="empty">暂无</div>'; return; }
+  el.innerHTML = items.map((it,i) => `
+    <article class="card">
+      <div class="tag">${label} · ${i+1}</div>
+      <div class="author">${esc(it.author||'')}</div>
+      <div class="text">${esc(it.text||'')}</div>
+      ${it.why ? `<div class="why">${esc(it.why)}</div>` : ''}
+      ${it.heat ? `<div class="heat">${esc(it.heat)}</div>` : ''}
+      ${it.url ? `<a class="link" href="${esc(it.url)}" target="_blank" rel="noopener">原文（可选）</a>` : ''}
+    </article>`).join('');
+}
+function esc(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+function show(hash){
+  const name = (hash||'#related').replace('#','') || 'related';
+  document.querySelectorAll('section').forEach(s=>s.classList.toggle('show', s.id===name));
+  document.querySelectorAll('nav a').forEach(a=>a.classList.toggle('active', a.getAttribute('href')==='#'+name));
+}
+window.addEventListener('hashchange', ()=>show(location.hash));
+show(location.hash);
+load();
+setInterval(load, 60000);
+</script>
+</body>
+</html>

@@ -1,0 +1,323 @@
+{
+  "date": "2026-09-06",
+  "updated_at": "2026-09-06T10:32:54+08:00",
+  "related": [
+    {
+      "author": "Arena.ai (@arena)",
+      "text": "Claude Fable 5.1 (Max) 登顶 Agent Arena，+15.8% net，中位成本约 $4.14/task，重画性价比前沿。",
+      "why": "AI agents / 模型竞赛",
+      "heat": "♥177",
+      "url": "https://x.com/arena/status/2096398986383184269"
+    },
+    {
+      "author": "Arena.ai (@arena)",
+      "text": "GPT-6 Astra (Max) 登顶 Code Arena: WebDev，SOTA 约 $40/Mtoken，对标最新 Claude 价位。",
+      "why": "Astra / vibe coding 相关",
+      "heat": "♥688",
+      "url": "https://x.com/arena/status/2096292448960217449"
+    },
+    {
+      "author": "Dan (@DanDr1s)",
+      "text": "Astra 短板：前端/UI。空间推理、3D、computer use、数学、agent、coding 都很强，但漂亮网站仍常输 Claude。",
+      "why": "Astra 能力边界，贴合你用 agent 出片/站",
+      "heat": "♥741",
+      "url": "https://x.com/DanDr1s/status/2096245930307506446"
+    },
+    {
+      "author": "Higgsfield AI (@higgsfield_ai)",
+      "text": "Astra 接管 After Effects：分析参考片、按原 timing 重建动效，每层可编辑透明合成。",
+      "why": "Higgsfield + AE/Astra 工作流",
+      "heat": "♥272",
+      "url": "https://x.com/higgsfield_ai/status/2096306588978196786"
+    },
+    {
+      "author": "Athrix (@athrix_codes)",
+      "text": "6 行 prompt + 参考视频做 motion graphics 发布片；HyperFrames + ElevenLabs。",
+      "why": "AI 视频/动效实操",
+      "heat": "♥415",
+      "url": "https://x.com/athrix_codes/status/2096209514248958161"
+    },
+    {
+      "author": "AI Search (@aisearchio)",
+      "text": "Vibe coding 游戏/3D 默认很糙；提示词技巧：让 Astra 另起 critic agent 评审画面。",
+      "why": "vibe coding + Astra",
+      "heat": "♥618",
+      "url": "https://x.com/aisearchio/status/2096331480763113795"
+    },
+    {
+      "author": "Simon Willison (@simonw)",
+      "text": "macOS 上 coding agent 控 Blender：鹈鹕骑车 → 加背景 → 再 refining。",
+      "why": "Blender + agent，贴合 AI 视频管线",
+      "heat": "♥925",
+      "url": "https://x.com/simonw/status/2096265759660142826"
+    },
+    {
+      "author": "Kris Kashtanova (@icreatelife)",
+      "text": "让 Astra 在 After Effects 里做特效/动效 demo。",
+      "why": "AE + Astra",
+      "heat": "♥127",
+      "url": "https://x.com/icreatelife/status/2096261585249370516"
+    },
+    {
+      "author": "Harirah Ismaila (@rirahcreates)",
+      "text": "How to Create Motion Graphics with AI · 完整教程。",
+      "why": "动效/创作者教程",
+      "heat": "♥435",
+      "url": "https://x.com/rirahcreates/status/2096121534918054348"
+    },
+    {
+      "author": "Bindu Reddy (@bindureddy)",
+      "text": "分场景选型：Browser 用 Astra / Hard coding 用 Fable 5.1 / Video 用 SeeDance 2.5 等。",
+      "why": "工具栈选型",
+      "heat": "♥300",
+      "url": "https://x.com/bindureddy/status/2096109330986942669"
+    },
+    {
+      "author": "Aaliya (@aaliya_va)",
+      "text": "OpenAI 称 AGI 时代开始；Astra 上线后一串难再叫「实验」的案例合集。",
+      "why": "Astra / 模型竞赛舆论",
+      "heat": "♥937",
+      "url": "https://x.com/aaliya_va/status/2096147545999425560"
+    },
+    {
+      "author": "Dexerto (@Dexerto)",
+      "text": "Astra agent 在模拟里再造一个装满 AI agents 的世界；Matt Shumer：「Simulations all the way down」。",
+      "why": "agents / 模拟",
+      "heat": "♥496",
+      "url": "https://x.com/Dexerto/status/2096334482026418605"
+    },
+    {
+      "author": "Peter Steinberger (@steipete)",
+      "text": "「很久没见过能力跳这么大一次。」（OpenClaw/agent 方向）",
+      "why": "agent 圈关键人物",
+      "heat": "♥268",
+      "url": "https://x.com/steipete/status/2096403459579015374"
+    },
+    {
+      "author": "Paul Graham (@paulg)",
+      "text": "创始人焦虑点子易被抄：先忽略，价值在点子带出的下一层想法。",
+      "why": "创作者/创业心态",
+      "heat": "♥2331",
+      "url": "https://x.com/paulg/status/2096387134768681471"
+    },
+    {
+      "author": "Alex Finn (@AlexFinn)",
+      "text": "把 ChatGPT 6 Astra 接到 WoW Classic：3 分钟做插件，在游戏里盯 agents。",
+      "why": "Astra 实玩",
+      "heat": "♥322",
+      "url": "https://x.com/AlexFinn/status/2096391410048180334"
+    },
+    {
+      "author": "Elon Musk (@elonmusk)",
+      "text": "Cybercab（视频帖）。",
+      "why": "Cybercab / Robotaxi",
+      "heat": "♥5869",
+      "url": "https://x.com/elonmusk/status/2096392046877770238"
+    },
+    {
+      "author": "Elon Musk (@elonmusk)",
+      "text": "Grok（短帖）。",
+      "why": "Elon / Grok 热度",
+      "heat": "♥4550",
+      "url": "https://x.com/elonmusk/status/2096402943981604902"
+    },
+    {
+      "author": "刘江 (@turingbook)",
+      "text": "Anthropic：几十个 Claude agent 用 11 天约 60 亿 token，几乎独立完成费马大定理端到端形式化；重点在过程细节而非标题。",
+      "why": "中文 AI 圈 + agents",
+      "heat": "♥182",
+      "url": "https://x.com/turingbook/status/2096084449423409236"
+    },
+    {
+      "author": "刘江 (@turingbook)",
+      "text": "待求证爆料：蒸馏费用、Navier-Stokes、以及接下来几周 Fable 5.2 / Grok 4.7 / Meta Watermelon 等。",
+      "why": "模型竞赛流言",
+      "heat": "♥200",
+      "url": "https://x.com/turingbook/status/2096292452449878249"
+    },
+    {
+      "author": "宝玉 (@dotey)",
+      "text": "The Information：Astra 用「循环深度 / recurrent depth」掩盖内部推理。",
+      "why": "Astra 技术解读",
+      "heat": "♥110",
+      "url": "https://x.com/dotey/status/2096283772773712035"
+    },
+    {
+      "author": "Never (@NeverofmeYZC)",
+      "text": "同龄人割裂：流水线打螺丝 vs 用 Claude/Cursor/Agent——世界像两套操作系统。",
+      "why": "中文 AI 创作者情绪",
+      "heat": "♥463",
+      "url": "https://x.com/NeverofmeYZC/status/2096121433424560471"
+    },
+    {
+      "author": "Crypto老鹰 (@laoyingkhq)",
+      "text": "国内数学博士 B 站「我被 AI 搞失业了」：Scale 标注高薪工作被模型吃掉。",
+      "why": "中文 AI 就业叙事",
+      "heat": "♥590",
+      "url": "https://x.com/laoyingkhq/status/2096165058812223723"
+    },
+    {
+      "author": "meng shao (@shao__meng)",
+      "text": "GPT-6 Astra 提示词最佳实践（主动性、授权边界、完成标准）。",
+      "why": "Astra 用法",
+      "heat": "♥30",
+      "url": "https://x.com/shao__meng/status/2096218689846587432"
+    },
+    {
+      "author": "TestingCatalog (@testingcatalog)",
+      "text": "9/5 AI 早报：Astra 扩到 Plus/Business，API $10/$50；额度重置等。",
+      "why": "产品动态",
+      "heat": "♥142",
+      "url": "https://x.com/testingcatalog/status/2096158613941243913"
+    },
+    {
+      "author": "Salio (@Mr_Salio)",
+      "text": "传言 Grok 4.7 下周、或更便宜冲击 Astra（未证实，当热闹看）。",
+      "why": "模型竞赛",
+      "heat": "♥969",
+      "url": "https://x.com/Mr_Salio/status/2096206037959274991"
+    }
+  ],
+  "hot": [
+    {
+      "author": "Centro LEAKS (@CentroLeaks)",
+      "text": "Nintendo 泄密：全新 Smash（非移植）、Nintendogs 回归、Mario Kart World 2027 DLC 等。",
+      "why": "周末全站娱乐顶流",
+      "heat": "♥15922",
+      "url": "https://x.com/CentroLeaks/status/2096391885191282882"
+    },
+    {
+      "author": "Barstool Sports (@barstoolsports)",
+      "text": "看台观众徒手接住约 112mph 全垒打球。",
+      "why": "体育病毒传播",
+      "heat": "♥12675",
+      "url": "https://x.com/barstoolsports/status/2096381756941201903"
+    },
+    {
+      "author": "BardiUpdatess (@BardiUpdatess)",
+      "text": "Cardi B 女儿复刻 KATSEYE Manon「Gnarly」造型。",
+      "why": "八卦/饭圈热",
+      "heat": "♥11072",
+      "url": "https://x.com/BardiUpdatess/status/2096396980838629776"
+    },
+    {
+      "author": "Punchoutpitch (@Punchoutpitch)",
+      "text": "Cardinals 集体歪戴帽抗议裁判要求正帽。",
+      "why": "棒球梗爆款",
+      "heat": "♥10933",
+      "url": "https://x.com/Punchoutpitch/status/2096395419555090484"
+    },
+    {
+      "author": "jungkook admirer (@dreamjeons)",
+      "text": "Jungkook 给 ARMY 拍照浪漫化日常。",
+      "why": "K-pop 高互动",
+      "heat": "♥10038",
+      "url": "https://x.com/dreamjeons/status/2096394545684492450"
+    },
+    {
+      "author": "Jomboy Media (@JomboyMedia)",
+      "text": "Cardinals（及部分 Rockies）歪帽回应。",
+      "why": "同题体育热",
+      "heat": "♥9036",
+      "url": "https://x.com/JomboyMedia/status/2096394953416929432"
+    },
+    {
+      "author": "Underdog MLB (@UnderdogMLB)",
+      "text": "Cardinals 歪帽同题。",
+      "why": "体育热帖扩散",
+      "heat": "♥8139",
+      "url": "https://x.com/UnderdogMLB/status/2096393580596338758"
+    },
+    {
+      "author": "Barstool Sports (@barstoolsports)",
+      "text": "本赛季首个 Enter Sandman · 大学橄榄球回归感。",
+      "why": "美大学橄榄球周末",
+      "heat": "♥8109",
+      "url": "https://x.com/barstoolsports/status/2096390638950326329"
+    },
+    {
+      "author": "Neb (@NebsGoodTakes)",
+      "text": "The Long Walk (2025) 剧照/海报向帖。",
+      "why": "影视娱乐热",
+      "heat": "♥6900",
+      "url": "https://x.com/NebsGoodTakes/status/2096392988767539498"
+    },
+    {
+      "author": ". (@LOLGIELBYE)",
+      "text": "「怪不得他只跟 kai 合作」类吐槽热帖。",
+      "why": "短钩高赞",
+      "heat": "♥6961",
+      "url": "https://x.com/LOLGIELBYE/status/2096384434681311668"
+    },
+    {
+      "author": "vjk (@koovarbie)",
+      "text": "Taehyung 说 dododo 逗笑 Jungkook。",
+      "why": "饭圈日常",
+      "heat": "♥7065",
+      "url": "https://x.com/koovarbie/status/2096399578933391824"
+    },
+    {
+      "author": "ajk (@archiveforJK)",
+      "text": "Jungkook 掏手机让粉丝比耶拍照。",
+      "why": "饭圈高互动",
+      "heat": "♥6732",
+      "url": "https://x.com/archiveforJK/status/2096395950121980184"
+    },
+    {
+      "author": "ThatsGoodSports (@BrandonPerna)",
+      "text": "「看了很多球，从没见过这样」怪球瞬间。",
+      "why": "体育切片",
+      "heat": "♥6448",
+      "url": "https://x.com/BrandonPerna/status/2096387748127281505"
+    },
+    {
+      "author": "Pete Hegseth (@PeteHegseth)",
+      "text": "The new @Southcom（视频）。",
+      "why": "美政/军事账号热",
+      "heat": "♥5670",
+      "url": "https://x.com/PeteHegseth/status/2096398122695938315"
+    },
+    {
+      "author": "Trump Daily Posts (@TrumpDailyPosts)",
+      "text": "Clancy Jury 首段视频疑似流出。",
+      "why": "政治高互动",
+      "heat": "♥5538",
+      "url": "https://x.com/TrumpDailyPosts/status/2096389400372601167"
+    },
+    {
+      "author": "Texas A&M Police (@TAMUPolice)",
+      "text": "球迷拿场外 Long Drink 嘲笑警察被请出。",
+      "why": "校园体育八卦",
+      "heat": "♥5858",
+      "url": "https://x.com/TAMUPolice/status/2096395521044643952"
+    },
+    {
+      "author": "Spencer Pratt (@spencerpratt)",
+      "text": "Nike 广告翻车吐槽「Get woke, go broke」。",
+      "why": "广告/舆论热帖",
+      "heat": "♥5734",
+      "url": "https://x.com/spencerpratt/status/2096390079132360936"
+    },
+    {
+      "author": "Bleacher Report (@BleacherReport)",
+      "text": "Jayden Daniels 要求 LSU 停用其 NIL，预告片没他。",
+      "why": "体育 NIL 新闻",
+      "heat": "♥5723",
+      "url": "https://x.com/BleacherReport/status/2096386520357937349"
+    },
+    {
+      "author": "Eric Daugherty (@EricLDaugh)",
+      "text": "Mike Lee 背书 Tim Burchett 接替田纳西参议员。",
+      "why": "美政",
+      "heat": "♥5056",
+      "url": "https://x.com/EricLDaugh/status/2096396177508008296"
+    },
+    {
+      "author": "NFL Memes (@NFLMemes)",
+      "text": "「When you order Joe Burrow from Temu」。",
+      "why": "NFL 梗图",
+      "heat": "♥5119",
+      "url": "https://x.com/NFLMemes/status/2096395227313348648"
+    }
+  ]
+}
