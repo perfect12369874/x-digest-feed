@@ -179,13 +179,9 @@ function mediaHtml(media, pageUrl){
   }).join('') + '</div>';
 }
 function bodyText(it){
+  // 只展示中文译文；英文原文不显示（媒体/视频仍保留）
   const zh = it.text_zh || it.text || '';
-  const en = it.text_en || '';
-  let html = `<div class="text">${esc(zh)}</div>`;
-  if(en && en.trim() && en.trim() !== zh.trim()){
-    html += `<div class="orig">原文：${esc(en)}</div>`;
-  }
-  return html;
+  return `<div class="text">${esc(zh)}</div>`;
 }
 function render(id, items, label){
   const el = document.getElementById(id);
