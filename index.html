@@ -34,6 +34,9 @@
   .empty{color:var(--muted);padding:40px 8px;text-align:center}
   .tag{display:inline-block;font-size:11px;padding:2px 8px;border-radius:999px;
        background:var(--chip);color:var(--muted);margin-bottom:8px}
+  .media{display:grid;gap:8px;margin-top:10px}
+  .media img,.media video{width:100%;max-height:420px;object-fit:contain;border-radius:10px;
+        background:#0b0d10;border:1px solid var(--line)}
 </style>
 </head>
 <body>
@@ -52,6 +55,7 @@
 <script>
 async function load(){
   const r = await fetch('data/latest.json?_=' + Date.now());
+  if(!r.ok){ document.getElementById('meta').textContent = '加载失败 ' + r.status; return; }
   const d = await r.json();
   document.getElementById('meta').textContent =
     (d.date || '') + (d.updated_at ? ' · 更新 ' + d.updated_at : '');
@@ -59,6 +63,21 @@ async function load(){
   render('hot', d.hot || [], '全站最热');
   document.getElementById('tab-related').textContent = '相关 ' + (d.related||[]).length;
   document.getElementById('tab-hot').textContent = '全站最热 ' + (d.hot||[]).length;
+}
+function mediaHtml(media){
+  if(!Array.isArray(media) || !media.length) return '';
+  return '<div class="media">' + media.map(m => {
+    const type = (m.type||'').toLowerCase();
+    const url = m.url || '';
+    const preview = m.preview_url || m.preview || '';
+    if(type === 'video' || type === 'animated_gif'){
+      if(url) return `<video controls playsinline preload="metadata" poster="${esc(preview)}"><source src="${esc(url)}" type="video/mp4"></video>`;
+      if(preview) return `<a href="${esc(m.page_url||'#')}" target="_blank" rel="noopener"><img src="${esc(preview)}" alt="video"/></a>`;
+      return '';
+    }
+    if(url || preview) return `<img src="${esc(url||preview)}" alt="" loading="lazy"/>`;
+    return '';
+  }).join('') + '</div>';
 }
 function render(id, items, label){
   const el = document.getElementById(id);
@@ -68,6 +87,7 @@ function render(id, items, label){
       <div class="tag">${label} · ${i+1}</div>
       <div class="author">${esc(it.author||'')}</div>
       <div class="text">${esc(it.text||'')}</div>
+      ${mediaHtml(it.media)}
       ${it.why ? `<div class="why">${esc(it.why)}</div>` : ''}
       ${it.heat ? `<div class="heat">${esc(it.heat)}</div>` : ''}
       ${it.url ? `<a class="link" href="${esc(it.url)}" target="_blank" rel="noopener">原文（可选）</a>` : ''}
