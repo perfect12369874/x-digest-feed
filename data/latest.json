@@ -1,10 +1,10 @@
 {
   "date": "2026-09-06",
-  "updated_at": "2026-09-06T11:26:45+08:00",
+  "updated_at": "2026-09-06T14:55:30+08:00",
   "related": [
     {
       "author": "Higgsfield AI 🧩 (@higgsfield_ai)",
-      "text": "AGI is 100% solved. Prompt: Take control of my computer using GPT-6 Astra and do the following: 1) design a character concept using Higgsfield Soul 2.0, 2) build a textured 3D model, 3) import into Blender, 4) retopologize the mesh, 5) create a UV map — full end-to-end agent pipeline demo.",
+      "text": "AGI 百分百搞定了。提示词：用 GPT-6 Astra 接管我的电脑，依次：1）用 Higgsfield Soul 2.0 做角色概念；2）建带贴图的 3D 模型；3）导入 Blender；4）重拓扑网格；5）做 UV——端到端 agent 管线演示。",
       "why": "Higgsfield + Astra 角色/3D 全链路，贴合 AI 视频动效兴趣",
       "heat": "♥404",
       "url": "https://x.com/higgsfield_ai/status/2096342420543660277",
@@ -14,11 +14,13 @@
           "preview_url": "https://pbs.twimg.com/amplify_video_thumb/2096341503576813568/img/3eik2RZLUmxGS43M.jpg",
           "url": "https://video.twimg.com/amplify_video/2096341503576813568/vid/avc1/1080x1822/YjYV7jEo4kIhCI3L.mp4"
         }
-      ]
+      ],
+      "text_en": "AGI is 100% solved. Prompt: Take control of my computer using GPT-6 Astra and do the following: 1) design a character concept using Higgsfield Soul 2.0, 2) build a textured 3D model, 3) import into Blender, 4) retopologize the mesh, 5) create a UV map — full end-to-end agent pipeline demo.",
+      "text_zh": "AGI 百分百搞定了。提示词：用 GPT-6 Astra 接管我的电脑，依次：1）用 Higgsfield Soul 2.0 做角色概念；2）建带贴图的 3D 模型；3）导入 Blender；4）重拓扑网格；5）做 UV——端到端 agent 管线演示。"
     },
     {
       "author": "Higgsfield AI 🧩 (@higgsfield_ai)",
-      "text": "GPT-6 Astra just took over After Effects. This 20-minute screen recording shows it analyzing a reference video and recreating its motion elements to match the original timing. It puts each element in its own editable composition with a transparent background so you can reuse layers.",
+      "text": "GPT-6 Astra 刚接管 After Effects。这段约 20 分钟录屏：它分析参考视频，按原 timing 重建运动元素；每个元素放进可编辑合成层并带透明背景，方便复用图层。",
       "why": "Astra 接管 AE，核心动效/合成工作流",
       "heat": "♥294",
       "url": "https://x.com/higgsfield_ai/status/2096306588978196786",
@@ -28,11 +30,13 @@
           "preview_url": "https://pbs.twimg.com/amplify_video_thumb/2096305924432691200/img/Q_SqJDco8n7TMi70.jpg",
           "url": "https://video.twimg.com/amplify_video/2096305924432691200/vid/avc1/1080x1920/hGIkXMZnLxbXZAqM.mp4"
         }
-      ]
+      ],
+      "text_en": "GPT-6 Astra just took over After Effects. This 20-minute screen recording shows it analyzing a reference video and recreating its motion elements to match the original timing. It puts each element in its own editable composition with a transparent background so you can reuse layers.",
+      "text_zh": "GPT-6 Astra 刚接管 After Effects。这段约 20 分钟录屏：它分析参考视频，按原 timing 重建运动元素；每个元素放进可编辑合成层并带透明背景，方便复用图层。"
     },
     {
       "author": "Higgsfield AI 🧩 (@higgsfield_ai)",
-      "text": "GPT-6 Astra is the strongest model for 3D game from a single prompt. We described the game in one sentence → Astra wrote drift physics, combo scoring, near-miss bonuses, speed traps, nitro → out came Street Heat, a full arcade racer running in the browser on Higgsfield Supercomputer.",
+      "text": "GPT-6 Astra 很适合「一句话做 3D 游戏」。我们用一句话描述 → Astra 写出漂移物理、连击计分、擦肩奖励、测速陷阱、氮气 → 做出浏览器街机竞速 Street Heat，跑在 Higgsfield 超算上。",
       "why": "Astra vibe coding / 3D 游戏，模型竞赛与智能体",
       "heat": "♥997",
       "url": "https://x.com/higgsfield_ai/status/2095916820431827408",
@@ -42,11 +46,13 @@
           "preview_url": "https://pbs.twimg.com/amplify_video_thumb/2095915630633603074/img/so2CPcfTK04XddvM.jpg",
           "url": "https://video.twimg.com/amplify_video/2095915630633603074/vid/avc1/1920x1080/hKc3US_h5e8104jP.mp4"
         }
-      ]
+      ],
+      "text_en": "GPT-6 Astra is the strongest model for 3D game from a single prompt. We described the game in one sentence → Astra wrote drift physics, combo scoring, near-miss bonuses, speed traps, nitro → out came Street Heat, a full arcade racer running in the browser on Higgsfield Supercomputer.",
+      "text_zh": "GPT-6 Astra 很适合「一句话做 3D 游戏」。我们用一句话描述 → Astra 写出漂移物理、连击计分、擦肩奖励、测速陷阱、氮气 → 做出浏览器街机竞速 Street Heat，跑在 Higgsfield 超算上。"
     },
     {
       "author": "Higgsfield AI 🧩 (@higgsfield_ai)",
-      "text": "Higgsfield 3D Jutsu is rebuilding the Seven Wonders of the Ancient World. This one is the Great Pyramid of Giza. GPT-6 Astra builds the geometry, then Seedance 2.5 generates the final pass, all of it on Higgsfield Supercomputer.",
+      "text": "Higgsfield 3D Jutsu 在重建古代世界七大奇迹。这一集是吉萨大金字塔：GPT-6 Astra 建几何，Seedance 2.5 出最终画面，全程在 Higgsfield 超算。",
       "why": "Seedance 2.5 + Astra 建筑可视化",
       "heat": "♥363",
       "url": "https://x.com/higgsfield_ai/status/2096088339548115037",
@@ -56,11 +62,13 @@
           "preview_url": "https://pbs.twimg.com/amplify_video_thumb/2096087840333725696/img/afbZ3PQ9MOtT3Fk9.jpg",
           "url": "https://video.twimg.com/amplify_video/2096087840333725696/vid/avc1/1080x1080/jRJyv6blFd2e1qO3.mp4"
         }
-      ]
+      ],
+      "text_en": "Higgsfield 3D Jutsu is rebuilding the Seven Wonders of the Ancient World. This one is the Great Pyramid of Giza. GPT-6 Astra builds the geometry, then Seedance 2.5 generates the final pass, all of it on Higgsfield Supercomputer.",
+      "text_zh": "Higgsfield 3D Jutsu 在重建古代世界七大奇迹。这一集是吉萨大金字塔：GPT-6 Astra 建几何，Seedance 2.5 出最终画面，全程在 Higgsfield 超算。"
     },
     {
       "author": "Generator (@groovestreetgen)",
-      "text": "I rebuilt Bikini Bottom. Then turned it into a movie AND a playable game. Blender → GPT Image 2 → Seedance 2.5. Photoshop for the poster. Higgsfield MCP + GPT-6 Astra = AGI. 30s / 1080p unofficial AI fan concept; gameplay next.",
+      "text": "我重建了比基尼海滩，又做成电影和可玩小游戏。流程：Blender → GPT Image 2 → Seedance 2.5，海报用 Photoshop。Higgsfield MCP + GPT-6 Astra = AGI。约 30 秒 / 1080p 非官方粉丝概念；玩法后续。",
       "why": "Seedance 2.5 影视+游戏管线实操",
       "heat": "♥252",
       "url": "https://x.com/groovestreetgen/status/2096377742916981247",
@@ -70,11 +78,13 @@
           "preview_url": "https://pbs.twimg.com/amplify_video_thumb/2096377710390239233/img/g6A2gGVGbxN-Fr1h.jpg",
           "url": "https://video.twimg.com/amplify_video/2096377710390239233/vid/avc1/1920x1080/gJPouXqptqeSdAY7.mp4?tag=16"
         }
-      ]
+      ],
+      "text_en": "I rebuilt Bikini Bottom. Then turned it into a movie AND a playable game. Blender → GPT Image 2 → Seedance 2.5. Photoshop for the poster. Higgsfield MCP + GPT-6 Astra = AGI. 30s / 1080p unofficial AI fan concept; gameplay next.",
+      "text_zh": "我重建了比基尼海滩，又做成电影和可玩小游戏。流程：Blender → GPT Image 2 → Seedance 2.5，海报用 Photoshop。Higgsfield MCP + GPT-6 Astra = AGI。约 30 秒 / 1080p 非官方粉丝概念；玩法后续。"
     },
     {
       "author": "Higgsfield AI 🧩 (@higgsfield_ai)",
-      "text": "GPT-6 Astra is insanely good at blueprint-to-architecture. We gave it one floor plan → Astra generated the scene code → Higgsfield built the location model in Blender and rendered it with Cycles. Whole pipeline end-to-end on Higgsfield Supercomputer.",
+      "text": "GPT-6 Astra 做「平面图→建筑」强得离谱。给一张平面图 → Astra 生成场景代码 → Higgsfield 在 Blender 建场景并用 Cycles 渲染。整条管线端到端跑在 Higgsfield 超算。",
       "why": "蓝图→3D 建筑，AI 视频/动效管线",
       "heat": "♥261",
       "url": "https://x.com/higgsfield_ai/status/2096284092593758631",
@@ -84,11 +94,13 @@
           "preview_url": "https://pbs.twimg.com/amplify_video_thumb/2096283705564442624/img/unfOGgCr_gsGjFcz.jpg",
           "url": "https://video.twimg.com/amplify_video/2096283705564442624/vid/avc1/1080x1080/o64IxEmp2tzE6-o4.mp4"
         }
-      ]
+      ],
+      "text_en": "GPT-6 Astra is insanely good at blueprint-to-architecture. We gave it one floor plan → Astra generated the scene code → Higgsfield built the location model in Blender and rendered it with Cycles. Whole pipeline end-to-end on Higgsfield Supercomputer.",
+      "text_zh": "GPT-6 Astra 做「平面图→建筑」强得离谱。给一张平面图 → Astra 生成场景代码 → Higgsfield 在 Blender 建场景并用 Cycles 渲染。整条管线端到端跑在 Higgsfield 超算。"
     },
     {
       "author": "Higgsfield AI 🧩 (@higgsfield_ai)",
-      "text": "GPT-6 Astra is color grading in DaVinci Resolve now. It took flat Apple Log 2 footage and adjusted contrast, shadows, and color to produce this final grade. Original footage, grading process, and result shown together. Made with Higgsfield + GPT-6 Astra.",
+      "text": "GPT-6 Astra 现在能在 DaVinci Resolve 里调色了。它拿 Apple Log 2 灰片，调对比、阴影和色彩出成片。原片、调色过程与结果一起展示。Higgsfield + GPT-6 Astra。",
       "why": "Astra 调色 / 后期工作流",
       "heat": "♥145",
       "url": "https://x.com/higgsfield_ai/status/2096330570712400319",
@@ -98,11 +110,13 @@
           "preview_url": "https://pbs.twimg.com/amplify_video_thumb/2096330391963783168/img/eBX-D_95CO_O_TdU.jpg",
           "url": "https://video.twimg.com/amplify_video/2096330391963783168/vid/avc1/1080x1920/mf3gQwYSYEUdLhBe.mp4"
         }
-      ]
+      ],
+      "text_en": "GPT-6 Astra is color grading in DaVinci Resolve now. It took flat Apple Log 2 footage and adjusted contrast, shadows, and color to produce this final grade. Original footage, grading process, and result shown together. Made with Higgsfield + GPT-6 Astra.",
+      "text_zh": "GPT-6 Astra 现在能在 DaVinci Resolve 里调色了。它拿 Apple Log 2 灰片，调对比、阴影和色彩出成片。原片、调色过程与结果一起展示。Higgsfield + GPT-6 Astra。"
     },
     {
       "author": "Justine Moore (@venturetwins)",
-      "text": "Incredible launch from World Labs. Atlas is a new multimodal world model that generates up to 1 minute of video with precise camera control and spatial consistency. The model takes text and image as inputs, as well as camera paths — watch the demo.",
+      "text": "World Labs 发布很炸。Atlas 是新的多模态 world model：最长约 1 分钟视频，精确相机控制与空间一致性；输入文本、图像，也可给相机路径——看演示。",
       "why": "Atlas world model，兴趣关键词直接命中",
       "heat": "♥294",
       "url": "https://x.com/venturetwins/status/2094844047169061291",
@@ -112,11 +126,13 @@
           "preview_url": "https://pbs.twimg.com/amplify_video_thumb/2094843922560552961/img/rjHwWYtDP3tkcPrn.jpg",
           "url": "https://video.twimg.com/amplify_video/2094843922560552961/vid/avc1/1882x908/S6z1mzAfT-jwPujR.mp4"
         }
-      ]
+      ],
+      "text_en": "Incredible launch from World Labs. Atlas is a new multimodal world model that generates up to 1 minute of video with precise camera control and spatial consistency. The model takes text and image as inputs, as well as camera paths — watch the demo.",
+      "text_zh": "World Labs 发布很炸。Atlas 是新的多模态 world model：最长约 1 分钟视频，精确相机控制与空间一致性；输入文本、图像，也可给相机路径——看演示。"
     },
     {
       "author": "Perplexity (@perplexity_ai)",
-      "text": "We evaluated GPT-6 Astra on WANDR. It scored 0.682 at $11.98 per task, the highest score of any model we tested. GPT-6-Astra scored 13.5% higher than Fable 5.1 at 6.1% lower cost, and 27.0% higher than Opus 5 at 3.3% higher cost.",
+      "text": "我们在 WANDR 上测了 GPT-6 Astra：得分 0.682，单任务约 $11.98，是测过模型里最高。比 Fable 5.1 高 13.5% 且便宜 6.1%；比 Opus 5 高 27.0%，成本仅高 3.3%。",
       "why": "模型竞赛基准：Astra vs Fable/Opus",
       "heat": "♥5140",
       "url": "https://x.com/perplexity_ai/status/2095620419906830788",
@@ -125,11 +141,13 @@
           "type": "photo",
           "url": "https://pbs.twimg.com/media/HRUjqpCaUAEHZdF.jpg:orig"
         }
-      ]
+      ],
+      "text_en": "We evaluated GPT-6 Astra on WANDR. It scored 0.682 at $11.98 per task, the highest score of any model we tested. GPT-6-Astra scored 13.5% higher than Fable 5.1 at 6.1% lower cost, and 27.0% higher than Opus 5 at 3.3% higher cost.",
+      "text_zh": "我们在 WANDR 上测了 GPT-6 Astra：得分 0.682，单任务约 $11.98，是测过模型里最高。比 Fable 5.1 高 13.5% 且便宜 6.1%；比 Opus 5 高 27.0%，成本仅高 3.3%。"
     },
     {
       "author": "Higgsfield AI 🧩 (@higgsfield_ai)",
-      "text": "This is a new AI video workflow in 2026: Lock your camera path, actors and timing in Blender with the Higgsfield plugin, before spending a single credit. Pre-viz first, then render — saves Seedance/credits burn.",
+      "text": "2026 新 AI 视频工作流：先用 Higgsfield 插件在 Blender 锁住相机路径、演员和 timing，一分积分都不花。先预演再渲染——省 Seedance/积分。",
       "why": "Blender + Higgsfield 省额度工作流（书签相关）",
       "heat": "♥1202",
       "url": "https://x.com/higgsfield_ai/status/2095141451583963229",
@@ -139,7 +157,9 @@
           "preview_url": "https://pbs.twimg.com/amplify_video_thumb/2095141089053380608/img/bLO6e2VI52W1Ty8c.jpg",
           "url": "https://video.twimg.com/amplify_video/2095141089053380608/vid/avc1/1080x1920/vD_d7_LmuCcf8v_p.mp4"
         }
-      ]
+      ],
+      "text_en": "This is a new AI video workflow in 2026: Lock your camera path, actors and timing in Blender with the Higgsfield plugin, before spending a single credit. Pre-viz first, then render — saves Seedance/credits burn.",
+      "text_zh": "2026 新 AI 视频工作流：先用 Higgsfield 插件在 Blender 锁住相机路径、演员和 timing，一分积分都不花。先预演再渲染——省 Seedance/积分。"
     },
     {
       "author": "lumxss (@bkdgiffug)",
@@ -152,7 +172,9 @@
           "type": "photo",
           "url": "https://pbs.twimg.com/media/HQ-vyqMasAAz4CF.png:orig"
         }
-      ]
+      ],
+      "text_en": "别再怀疑用 Codex 剪视频的可靠性了，这玩法最近确实火出圈。browser-use 团队刚开源的 video-use，免费且已斩获 16.5k star。亲测后反馈这工具还省 Token：不让大模型死盯画面，而是先用 ElevenLabs Scribe 把视频压缩成一份 12KB 的时间戳文本，像改 Word 一样在文字层动刀。",
+      "text_zh": "别再怀疑用 Codex 剪视频的可靠性了，这玩法最近确实火出圈。browser-use 团队刚开源的 video-use，免费且已斩获 16.5k star。亲测后反馈这工具还省 Token：不让大模型死盯画面，而是先用 ElevenLabs Scribe 把视频压缩成一份 12KB 的时间戳文本，像改 Word 一样在文字层动刀。"
     },
     {
       "author": "Geek Lite (@QingQ77)",
@@ -165,11 +187,13 @@
           "type": "photo",
           "url": "https://pbs.twimg.com/media/HRVz6Qsa4AAYpY9.jpg:orig"
         }
-      ]
+      ],
+      "text_en": "Vicoa 把 Claude Code、Codex、OpenCode、Gemini、Cursor、Copilot、Kimi、Hermes 八种编程 Agent 收进一个工作区，每个 Agent 各占一个 git worktree 和分支，能同时改同一个仓库。开源可自托管，贴合多 Agent 编程栈。",
+      "text_zh": "Vicoa 把 Claude Code、Codex、OpenCode、Gemini、Cursor、Copilot、Kimi、Hermes 八种编程 Agent 收进一个工作区，每个 Agent 各占一个 git worktree 和分支，能同时改同一个仓库。开源可自托管，贴合多 Agent 编程栈。"
     },
     {
       "author": "JSFILMZ (@JSFILMZ0412)",
-      "text": "I can’t wait to try GPT-6 Astra with the Blender Higgsfield Plugin. For now, I’ll stick with Claude Fable 5.1. Here is Part 2 of my “How to Save Credits in Seedance 2.5” series — full tutorial in the comments.",
+      "text": "等不及用 GPT-6 Astra + Blender Higgsfield 插件了。眼下先继续用 Claude Fable 5.1。这是「如何省 Seedance 2.5 积分」系列第 2 集——完整教程见评论。",
       "why": "Seedance 省额度教程 + Higgsfield/Blender",
       "heat": "♥142",
       "url": "https://x.com/JSFILMZ0412/status/2095829455155380335",
@@ -179,11 +203,13 @@
           "preview_url": "https://pbs.twimg.com/amplify_video_thumb/2095829205296836608/img/atL70UOsUJtRQd_O.jpg",
           "url": "https://video.twimg.com/amplify_video/2095829205296836608/vid/avc1/1080x1350/1m5lDYIyd70KLwjx.mp4"
         }
-      ]
+      ],
+      "text_en": "I can’t wait to try GPT-6 Astra with the Blender Higgsfield Plugin. For now, I’ll stick with Claude Fable 5.1. Here is Part 2 of my “How to Save Credits in Seedance 2.5” series — full tutorial in the comments.",
+      "text_zh": "等不及用 GPT-6 Astra + Blender Higgsfield 插件了。眼下先继续用 Claude Fable 5.1。这是「如何省 Seedance 2.5 积分」系列第 2 集——完整教程见评论。"
     },
     {
       "author": "Renoise (@renoiseai)",
-      "text": "GPT-6 Astra vs Fable 5.1 — both videos generated with Seedance 2.5 on Renoise. Side-by-side model contest for AI video quality on the same pipeline.",
+      "text": "GPT-6 Astra vs Fable 5.1——两条视频都用 Seedance 2.5 在 Renoise 生成。同一管线下的模型画质对决。",
       "why": "Seedance 模型竞赛 Astra vs Fable",
       "heat": "♥141",
       "url": "https://x.com/renoiseai/status/2095773478200996066",
@@ -193,11 +219,13 @@
           "preview_url": "https://pbs.twimg.com/amplify_video_thumb/2095773074264412160/img/gqeGBrOqo_5zDL4D.jpg",
           "url": "https://video.twimg.com/amplify_video/2095773074264412160/vid/avc1/1920x1080/76nTr9DNJ5KWor5X.mp4"
         }
-      ]
+      ],
+      "text_en": "GPT-6 Astra vs Fable 5.1 — both videos generated with Seedance 2.5 on Renoise. Side-by-side model contest for AI video quality on the same pipeline.",
+      "text_zh": "GPT-6 Astra vs Fable 5.1——两条视频都用 Seedance 2.5 在 Renoise 生成。同一管线下的模型画质对决。"
     },
     {
       "author": "Higgsfield AI 🧩 (@higgsfield_ai)",
-      "text": "GPT-6 Astra just vibe-coded the Oval Office in 3D. We described the set design → Astra generated the scene code → Higgsfield built the location model in Blender and rendered it with Cycles. The whole pipeline ran end-to-end on Higgsfield Supercomputer.",
+      "text": "GPT-6 Astra 用 vibe coding 做了椭圆形办公室 3D。描述布景 → Astra 生成场景代码 → Higgsfield 在 Blender 建模并用 Cycles 渲染。整条管线在 Higgsfield 超算端到端跑通。",
       "why": "经典 Oval Office demo，Astra+Higgsfield 爆款",
       "heat": "♥4902",
       "url": "https://x.com/higgsfield_ai/status/2095630197257367857",
@@ -207,13 +235,15 @@
           "preview_url": "https://pbs.twimg.com/amplify_video_thumb/2095629993678344192/img/oeJjkRnaLqUwLQp3.jpg",
           "url": "https://video.twimg.com/amplify_video/2095629993678344192/vid/avc1/1080x1080/RfsazRKx2daYfW0p.mp4"
         }
-      ]
+      ],
+      "text_en": "GPT-6 Astra just vibe-coded the Oval Office in 3D. We described the set design → Astra generated the scene code → Higgsfield built the location model in Blender and rendered it with Cycles. The whole pipeline ran end-to-end on Higgsfield Supercomputer.",
+      "text_zh": "GPT-6 Astra 用 vibe coding 做了椭圆形办公室 3D。描述布景 → Astra 生成场景代码 → Higgsfield 在 Blender 建模并用 Cycles 渲染。整条管线在 Higgsfield 超算端到端跑通。"
     }
   ],
   "hot": [
     {
       "author": "OpenAI (@OpenAI)",
-      "text": "This is GPT-6 Astra. Anything you can do on a computer, Astra can do for you. Fast. Official launch video — computer-use / agent era framing from OpenAI.",
+      "text": "这就是 GPT-6 Astra。电脑上你能做的事，Astra 都能代劳。而且快。OpenAI 官方发布片——电脑操控 / agent 时代叙事。",
       "why": "全站热：Astra 官方发布，超高互动",
       "heat": "♥326845",
       "url": "https://x.com/OpenAI/status/2095595741528125780",
@@ -223,11 +253,13 @@
           "preview_url": "https://pbs.twimg.com/amplify_video_thumb/2095595661559574528/img/Vmb2pgEFJ6fpCUTD.jpg",
           "url": "https://video.twimg.com/amplify_video/2095595661559574528/vid/avc1/1920x1080/grXdGA07X-yPH_8z.mp4"
         }
-      ]
+      ],
+      "text_en": "This is GPT-6 Astra. Anything you can do on a computer, Astra can do for you. Fast. Official launch video — computer-use / agent era framing from OpenAI.",
+      "text_zh": "这就是 GPT-6 Astra。电脑上你能做的事，Astra 都能代劳。而且快。OpenAI 官方发布片——电脑操控 / agent 时代叙事。"
     },
     {
       "author": "Rob Maurer (@robmaurer)",
-      "text": "Cybercab is absolutely magical. Tesla has actually done it. A domestically mass-produced affordable autonomous electric vehicle is available to the general public. A car with no steering wheel generating revenue. It’s sad to come back to a city without Robotaxi after being in Austin.",
+      "text": "Cybercab 太魔幻了。特斯拉真做成了：面向公众的量产、可负担自动驾驶电动车；没方向盘还在赚钱。离开奥斯汀回到没有 Robotaxi 的城市，挺失落。",
       "why": "全站热：Cybercab 实车体验视频",
       "heat": "♥4363",
       "url": "https://x.com/robmaurer/status/2096311110924157346",
@@ -237,11 +269,13 @@
           "preview_url": "https://pbs.twimg.com/amplify_video_thumb/2096292086777847808/img/2yqfaINal2xMPTTR.jpg",
           "url": "https://video.twimg.com/amplify_video/2096292086777847808/vid/avc1/2160x3840/cG2WfSqlsiJbuJm0.mp4"
         }
-      ]
+      ],
+      "text_en": "Cybercab is absolutely magical. Tesla has actually done it. A domestically mass-produced affordable autonomous electric vehicle is available to the general public. A car with no steering wheel generating revenue. It’s sad to come back to a city without Robotaxi after being in Austin.",
+      "text_zh": "Cybercab 太魔幻了。特斯拉真做成了：面向公众的量产、可负担自动驾驶电动车；没方向盘还在赚钱。离开奥斯汀回到没有 Robotaxi 的城市，挺失落。"
     },
     {
       "author": "miki ⋆｡°✩ (@miki_code)",
-      "text": "I asked Astra to make playable 4d chess — and it did. Viral Astra vibe-coding demo showing interactive game generation from a short prompt.",
+      "text": "我让 Astra 做可玩的 4D 象棋——它真做出来了。短提示词 vibe coding 出交互游戏的病毒演示。",
       "why": "全站热：Astra 可玩 4D 象棋 demo",
       "heat": "♥5559",
       "url": "https://x.com/miki_code/status/2096132455652549117",
@@ -251,11 +285,13 @@
           "preview_url": "https://pbs.twimg.com/amplify_video_thumb/2096132205726568453/img/j8USB6saT7idIDts.jpg",
           "url": "https://video.twimg.com/amplify_video/2096132205726568453/vid/avc1/1280x720/BEdw8WUNIGGECi3y.mp4?tag=14"
         }
-      ]
+      ],
+      "text_en": "I asked Astra to make playable 4d chess — and it did. Viral Astra vibe-coding demo showing interactive game generation from a short prompt.",
+      "text_zh": "我让 Astra 做可玩的 4D 象棋——它真做出来了。短提示词 vibe coding 出交互游戏的病毒演示。"
     },
     {
       "author": "Fazz (@iloveFazz)",
-      "text": "@OpenAI Me watching 20 years of computer skills become irrelevant in one demo — reaction GIF to GPT-6 Astra computer-use launch.",
+      "text": "@OpenAI 看着 20 年电脑技能在一场演示里作废——GPT-6 Astra 电脑操控发布的反应 GIF。",
       "why": "全站热：Astra demo 舆情 meme",
       "heat": "♥17430",
       "url": "https://x.com/iloveFazz/status/2095663119116968100",
@@ -265,19 +301,23 @@
           "preview_url": "https://pbs.twimg.com/tweet_video_thumb/HRVKfZ0aQAAz1dm.jpg",
           "url": "https://video.twimg.com/tweet_video/HRVKfZ0aQAAz1dm.mp4"
         }
-      ]
+      ],
+      "text_en": "@OpenAI Me watching 20 years of computer skills become irrelevant in one demo — reaction GIF to GPT-6 Astra computer-use launch.",
+      "text_zh": "@OpenAI 看着 20 年电脑技能在一场演示里作废——GPT-6 Astra 电脑操控发布的反应 GIF。"
     },
     {
       "author": "Polymarket (@Polymarket)",
-      "text": "BREAKING: OpenAI unveils GPT-6 Astra, claiming it may represent the “early stages of AGI.” Market and timeline reaction spike around the AGI-era framing.",
+      "text": "突发：OpenAI 发布 GPT-6 Astra，称或处于「早期 AGI」阶段。市场与时间表讨论随之升温。",
       "why": "全站热：Astra/AGI 突发新闻",
       "heat": "♥5224",
       "url": "https://x.com/Polymarket/status/2095578669456510976",
-      "media": []
+      "media": [],
+      "text_en": "BREAKING: OpenAI unveils GPT-6 Astra, claiming it may represent the “early stages of AGI.” Market and timeline reaction spike around the AGI-era framing.",
+      "text_zh": "突发：OpenAI 发布 GPT-6 Astra，称或处于「早期 AGI」阶段。市场与时间表讨论随之升温。"
     },
     {
       "author": "Sawyer Merritt (@SawyerMerritt)",
-      "text": "Tesla has updated their Robotaxi page in the App Store. You’ll be able to select if you want a Cybercab or Model Y Robotaxi. “Our Robotaxi vehicle lineup now includes Cybercab, our first purpose-built autonomous vehicle. Designed for safety, accessibility and comfort…”",
+      "text": "特斯拉更新了 App Store 上的 Robotaxi 页面：可选 Cybercab 或 Model Y Robotaxi。「车队现含 Cybercab——首款专为自动驾驶打造的车，面向安全、无障碍与舒适……」",
       "why": "Cybercab 上架 Robotaxi App",
       "heat": "♥2548",
       "url": "https://x.com/SawyerMerritt/status/2095520935499411665",
@@ -286,11 +326,13 @@
           "type": "photo",
           "url": "https://pbs.twimg.com/media/HRTJLr9XYAEX5VS.jpg:orig"
         }
-      ]
+      ],
+      "text_en": "Tesla has updated their Robotaxi page in the App Store. You’ll be able to select if you want a Cybercab or Model Y Robotaxi. “Our Robotaxi vehicle lineup now includes Cybercab, our first purpose-built autonomous vehicle. Designed for safety, accessibility and comfort…”",
+      "text_zh": "特斯拉更新了 App Store 上的 Robotaxi 页面：可选 Cybercab 或 Model Y Robotaxi。「车队现含 Cybercab——首款专为自动驾驶打造的车，面向安全、无障碍与舒适……」"
     },
     {
       "author": "DogeDesigner (@cb_doge)",
-      "text": "Tesla Robotaxi is now the #1 Travel app on the App Store, beating Uber, Lyft and Waymo. Screenshot of the US charts included.",
+      "text": "Tesla Robotaxi 成为 App Store 旅行类第 1，超过 Uber、Lyft 和 Waymo。附美国榜单截图。",
       "why": "Robotaxi App Store 登顶",
       "heat": "♥765",
       "url": "https://x.com/cb_doge/status/2096254706792419490",
@@ -299,11 +341,13 @@
           "type": "photo",
           "url": "https://pbs.twimg.com/media/HRdkYaragAA30eg.jpg:orig"
         }
-      ]
+      ],
+      "text_en": "Tesla Robotaxi is now the #1 Travel app on the App Store, beating Uber, Lyft and Waymo. Screenshot of the US charts included.",
+      "text_zh": "Tesla Robotaxi 成为 App Store 旅行类第 1，超过 Uber、Lyft 和 Waymo。附美国榜单截图。"
     },
     {
       "author": "Gabriel Chua (@gabrielchua)",
-      "text": "Me: show me a pelican riding a bicycle / Astra: — short viral video of Astra generating the classic pelican-on-a-bike scene, widely reshared.",
+      "text": "我：给我一只鹈鹕骑自行车 / Astra：——短视频病毒帖，Astra 生成经典「鹈鹕骑车」场景，大量转发。",
       "why": "Astra 创意 demo 全站热",
       "heat": "♥617",
       "url": "https://x.com/gabrielchua/status/2096403701862961161",
@@ -313,11 +357,13 @@
           "preview_url": "https://pbs.twimg.com/amplify_video_thumb/2096403455506329600/img/yngGboOcIa6RORMT.jpg",
           "url": "https://video.twimg.com/amplify_video/2096403455506329600/vid/avc1/1920x1080/Wq5N7pzySg_KyFGR.mp4"
         }
-      ]
+      ],
+      "text_en": "Me: show me a pelican riding a bicycle / Astra: — short viral video of Astra generating the classic pelican-on-a-bike scene, widely reshared.",
+      "text_zh": "我：给我一只鹈鹕骑自行车 / Astra：——短视频病毒帖，Astra 生成经典「鹈鹕骑车」场景，大量转发。"
     },
     {
       "author": "Herbert Ong (@herbertong)",
-      "text": "Cern and I were about 13 minutes into our Cybercab ride when we had one of those “wait… there’s actually nobody driving” moments! No driver, no steering wheel, no pedals, not even a rear-view mirror. We were literally just passengers — and changed destination mid-ride.",
+      "text": "和 Cern 坐 Cybercab 大约 13 分钟时突然反应过来：车里真的没人开。没司机、没方向盘、没踏板，甚至没后视镜。我们就是乘客——还中途改了目的地。",
       "why": "Cybercab 乘客第一视角视频",
       "heat": "♥206",
       "url": "https://x.com/herbertong/status/2096411198673895603",
@@ -327,7 +373,9 @@
           "preview_url": "https://pbs.twimg.com/amplify_video_thumb/2096410882456879104/img/MRZ0zIGp86BfQWU1.jpg",
           "url": "https://video.twimg.com/amplify_video/2096410882456879104/vid/avc1/1280x720/7dnpJAJ9TyiR5lET.mp4"
         }
-      ]
+      ],
+      "text_en": "Cern and I were about 13 minutes into our Cybercab ride when we had one of those “wait… there’s actually nobody driving” moments! No driver, no steering wheel, no pedals, not even a rear-view mirror. We were literally just passengers — and changed destination mid-ride.",
+      "text_zh": "和 Cern 坐 Cybercab 大约 13 分钟时突然反应过来：车里真的没人开。没司机、没方向盘、没踏板，甚至没后视镜。我们就是乘客——还中途改了目的地。"
     },
     {
       "author": "谢嘉琪 Jiaqi (@XieJackie)",
@@ -340,11 +388,13 @@
           "type": "photo",
           "url": "https://pbs.twimg.com/media/HRS8CTuaoAA4xhE.png:orig"
         }
-      ]
+      ],
+      "text_en": "马斯克已经魔怔了！特斯拉股价今天居然也随之出现了难得的大涨，目前接近5%！感觉市场被 Cybercab 的数量吓到了，突然出现这么多。现在 Model Y Robotaxi 就是 Uber 价格的一半。Cybercab 以后会更便宜。Uber 和 Waymo 都将被杀死。马上华尔街就不得不重视特斯拉 AI。",
+      "text_zh": "马斯克已经魔怔了！特斯拉股价今天居然也随之出现了难得的大涨，目前接近5%！感觉市场被 Cybercab 的数量吓到了，突然出现这么多。现在 Model Y Robotaxi 就是 Uber 价格的一半。Cybercab 以后会更便宜。Uber 和 Waymo 都将被杀死。马上华尔街就不得不重视特斯拉 AI。"
     },
     {
       "author": "Sawyer Merritt (@SawyerMerritt)",
-      "text": "Tesla has officially added the Cybercab to its terms of service in the Robotaxi app. “Minors under the age of 13 are not permitted in a Cybercab robotaxi vehicle (vs 8 for Model Y robotaxi).”",
+      "text": "特斯拉已在 Robotaxi App 服务条款中加入 Cybercab。「未满 13 岁不得乘坐 Cybercab（Model Y Robotaxi 为 8 岁）。」",
       "why": "Cybercab ToS 正式写入 App",
       "heat": "♥1732",
       "url": "https://x.com/SawyerMerritt/status/2095390591743918518",
@@ -353,11 +403,13 @@
           "type": "photo",
           "url": "https://pbs.twimg.com/media/HRRSoibWYAMKtSB.jpg:orig"
         }
-      ]
+      ],
+      "text_en": "Tesla has officially added the Cybercab to its terms of service in the Robotaxi app. “Minors under the age of 13 are not permitted in a Cybercab robotaxi vehicle (vs 8 for Model Y robotaxi).”",
+      "text_zh": "特斯拉已在 Robotaxi App 服务条款中加入 Cybercab。「未满 13 岁不得乘坐 Cybercab（Model Y Robotaxi 为 8 岁）。」"
     },
     {
       "author": "Jaan of EVwire.com ⚡ (@TheEVuniverse)",
-      "text": "Tesla just launched a new video on the Cybercab and Robotaxi service accessibility on their robotaxi website — official accessibility / product clip.",
+      "text": "特斯拉刚在 Robotaxi 官网发了 Cybercab 与无障碍出行相关新视频——官方产品/无障碍短片。",
       "why": "官方 Cybercab 无障碍宣传片",
       "heat": "♥406",
       "url": "https://x.com/TheEVuniverse/status/2095567919568621977",
@@ -367,19 +419,23 @@
           "preview_url": "https://pbs.twimg.com/amplify_video_thumb/2095567819387846656/img/ho1DbAKOichGSVuV.jpg",
           "url": "https://video.twimg.com/amplify_video/2095567819387846656/vid/avc1/1142x568/j_7moxRTlZwMf1T3.mp4"
         }
-      ]
+      ],
+      "text_en": "Tesla just launched a new video on the Cybercab and Robotaxi service accessibility on their robotaxi website — official accessibility / product clip.",
+      "text_zh": "特斯拉刚在 Robotaxi 官网发了 Cybercab 与无障碍出行相关新视频——官方产品/无障碍短片。"
     },
     {
       "author": "Aravind Srinivas (@AravSrinivas)",
-      "text": "Congrats to @OpenAI on building the industry's frontier model: GPT-6 Astra. It's far ahead of every other model on wide and deep research tasks, while also being more cost-effective. We'll be bringing this model up on Perplexity Computer for all Pro and Max users soon!",
+      "text": "祝贺 @OpenAI 做出业界前沿模型 GPT-6 Astra：宽深研究任务全面领先，还更划算。我们很快会在 Perplexity Computer 给所有 Pro/Max 用户上这模型！",
       "why": "Perplexity CEO 站台 Astra 模型竞赛",
       "heat": "♥3142",
       "url": "https://x.com/AravSrinivas/status/2095621195131695352",
-      "media": []
+      "media": [],
+      "text_en": "Congrats to @OpenAI on building the industry's frontier model: GPT-6 Astra. It's far ahead of every other model on wide and deep research tasks, while also being more cost-effective. We'll be bringing this model up on Perplexity Computer for all Pro and Max users soon!",
+      "text_zh": "祝贺 @OpenAI 做出业界前沿模型 GPT-6 Astra：宽深研究任务全面领先，还更划算。我们很快会在 Perplexity Computer 给所有 Pro/Max 用户上这模型！"
     },
     {
       "author": "Ben Wilkins (@BenWilkins1217)",
-      "text": "Popup @robotaxi Cybercab on display at Desnudo Coffee in Downtown Austin. Go check it out! The staff running it are great — street-level Cybercab activation video.",
+      "text": "奥斯汀市中心 Desnudo Coffee 快闪展出 @robotaxi Cybercab。去看看，现场工作人员很棒——街头 Cybercab 活动视频。",
       "why": "奥斯汀线下 Cybercab 展示",
       "heat": "♥453",
       "url": "https://x.com/BenWilkins1217/status/2095538524216864907",
@@ -389,11 +445,13 @@
           "preview_url": "https://pbs.twimg.com/amplify_video_thumb/2095538404037423106/img/nYfcoBAq4-CnEzqB.jpg",
           "url": "https://video.twimg.com/amplify_video/2095538404037423106/vid/avc1/2160x3840/75HVFERhCoGkEdTf.mp4"
         }
-      ]
+      ],
+      "text_en": "Popup @robotaxi Cybercab on display at Desnudo Coffee in Downtown Austin. Go check it out! The staff running it are great — street-level Cybercab activation video.",
+      "text_zh": "奥斯汀市中心 Desnudo Coffee 快闪展出 @robotaxi Cybercab。去看看，现场工作人员很棒——街头 Cybercab 活动视频。"
     },
     {
       "author": "Milk Road AI (@MilkRoadAI)",
-      "text": "Tesla could turn a $3.50 per mile transportation market into a $0.20 per mile software business. Chart compares NYC taxis (~$3.50/mi), Waymo (~$3.16), vs Tesla’s long-term robotaxi cost targets.",
+      "text": "特斯拉可能把约 $3.50/英里的出行市场，做成约 $0.20/英里的软件生意。图对比纽约出租车、Waymo 与特斯拉长期 Robotaxi 成本目标。",
       "why": "Robotaxi 单位经济图解",
       "heat": "♥106",
       "url": "https://x.com/MilkRoadAI/status/2095955262276567206",
@@ -402,7 +460,9 @@
           "type": "photo",
           "url": "https://pbs.twimg.com/media/HRZUNECb0AAqRT6.png:orig"
         }
-      ]
+      ],
+      "text_en": "Tesla could turn a $3.50 per mile transportation market into a $0.20 per mile software business. Chart compares NYC taxis (~$3.50/mi), Waymo (~$3.16), vs Tesla’s long-term robotaxi cost targets.",
+      "text_zh": "特斯拉可能把约 $3.50/英里的出行市场，做成约 $0.20/英里的软件生意。图对比纽约出租车、Waymo 与特斯拉长期 Robotaxi 成本目标。"
     }
   ]
 }
