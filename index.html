@@ -142,14 +142,28 @@ async function loadPath(path){
   document.getElementById('tab-hot').textContent = '全站最热 ' + (d.hot||[]).length;
 }
 
+function statusIdFromUrl(u){
+  const m = String(u||'').match(/status\/(\d+)/);
+  return m ? m[1] : '';
+}
+function xVideoHref(pageUrl, mediaUrl, mediaIndex){
+  const id = statusIdFromUrl(pageUrl);
+  const idx = (mediaIndex==null ? 1 : mediaIndex);
+  // Native video deep link: lands on video player view more often than plain status URL
+  if(id) return 'https://x.com/i/status/' + id + '/video/' + idx;
+  if(pageUrl) return pageUrl;
+  return mediaUrl || '';
+}
 function mediaHtml(media, pageUrl){
   if(!Array.isArray(media) || !media.length) return '';
+  let videoOrdinal = 0;
   return '<div class="media">' + media.map(m => {
     const type = (m.type||'').toLowerCase();
     const url = m.url || '';
     const preview = m.preview_url || m.preview || '';
     if(type === 'video' || type === 'animated_gif'){
-      const href = pageUrl || url;
+      videoOrdinal += 1;
+      const href = xVideoHref(pageUrl, url, videoOrdinal);
       if(!href && !preview) return '';
       const poster = preview
         ? `<img class="poster" src="${esc(preview)}" alt="" referrerpolicy="no-referrer" loading="lazy"/>`
