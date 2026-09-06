@@ -1,7 +1,8 @@
-# X 情报 Feed
+# X 情报 Feed（含往期归档）
 
-每天写入 `data/latest.json` 并 push 到 GitHub Pages。
+- 最新：`data/latest.json`
+- 索引：`data/index.json`（daily / weekly / monthly 列表）
+- 归档：`data/daily/YYYY-MM-DD.json`、`data/weekly/YYYY-Www.json`、`data/monthly/YYYY-MM.json`
 
-字段：date, updated_at, related[], hot[]。
-每条：author, text（中文主文）, text_zh, text_en（原文）, why, heat, url, media[]。
-页面优先展示中文，附原文。
+每期字段含 kind/period/label，条目含中文 text/text_zh、原文 text_en、media。
+每次推送后更新对应归档文件、index.json，并同步 latest.json（每日默认）。
