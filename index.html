@@ -38,17 +38,15 @@
   .tag{display:inline-block;font-size:11px;padding:2px 8px;border-radius:999px;
        background:var(--chip);color:var(--muted);margin-bottom:8px}
   .media{display:grid;gap:8px;margin-top:10px}
-  .media img,.media video{width:100%;max-height:420px;object-fit:contain;border-radius:10px;
+  .media img{width:100%;max-height:420px;object-fit:contain;border-radius:10px;
         background:#0b0d10;border:1px solid var(--line)}
-  .vwrap{position:relative;border-radius:10px;overflow:hidden;border:1px solid var(--line);background:#0b0d10}
-  .vwrap video{display:block;width:100%;max-height:420px;background:#000}
-  .vwrap .poster{display:block;width:100%;max-height:420px;object-fit:contain}
+  .vwrap{position:relative;display:block;border-radius:10px;overflow:hidden;border:1px solid var(--line);
+         background:#0b0d10;text-decoration:none;color:inherit}
+  .vwrap .poster{display:block;width:100%;max-height:420px;object-fit:contain;background:#000}
   .vwrap .playbtn{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
-        background:rgba(0,0,0,.35);border:0;cursor:pointer;color:#fff;font-size:15px;font-weight:600}
-  .vwrap .playbtn span{background:rgba(0,0,0,.65);padding:10px 14px;border-radius:999px}
-  .vwrap.loading .playbtn span::after{content:" 加载中…"}
-  .vwrap.error .playbtn span{background:#7f1d1d}
-  .vhints{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+        background:rgba(0,0,0,.35);pointer-events:none}
+  .vwrap .playbtn span{background:rgba(0,0,0,.7);padding:10px 14px;border-radius:999px;
+        color:#fff;font-size:15px;font-weight:600}
 </style>
 </head>
 <body>
@@ -75,7 +73,6 @@ async function load(){
   render('hot', d.hot || [], '全站最热');
   document.getElementById('tab-related').textContent = '相关 ' + (d.related||[]).length;
   document.getElementById('tab-hot').textContent = '全站最热 ' + (d.hot||[]).length;
-  bindVideoPlayers(document);
 }
 function mediaHtml(media, pageUrl){
   if(!Array.isArray(media) || !media.length) return '';
@@ -83,64 +80,22 @@ function mediaHtml(media, pageUrl){
     const type = (m.type||'').toLowerCase();
     const url = m.url || '';
     const preview = m.preview_url || m.preview || '';
+    // Videos: open X original post (best fullscreen player). Fallback to mp4 direct link.
     if(type === 'video' || type === 'animated_gif'){
-      if(!url && !preview) return '';
-      const poster = preview ? `<img class="poster" src="${esc(preview)}" alt="" referrerpolicy="no-referrer" loading="lazy"/>` : '';
-      const hints = `<div class="vhints">
-        ${url ? `<a class="link" href="${esc(url)}" target="_blank" rel="noreferrer noopener">直链播放</a>` : ''}
-        ${pageUrl ? `<a class="link" href="${esc(pageUrl)}" target="_blank" rel="noreferrer noopener">在 X 打开</a>` : ''}
-      </div>`;
-      if(!url){
-        return `<div class="vwrap">${poster}${hints}</div>`;
-      }
-      return `<div class="vwrap" data-src="${esc(url)}">
+      const href = pageUrl || url;
+      if(!href && !preview) return '';
+      const poster = preview
+        ? `<img class="poster" src="${esc(preview)}" alt="" referrerpolicy="no-referrer" loading="lazy"/>`
+        : `<div class="poster" style="height:180px"></div>`;
+      if(!href) return poster;
+      return `<a class="vwrap" href="${esc(href)}" target="_blank" rel="noreferrer noopener">
         ${poster}
-        <button type="button" class="playbtn" aria-label="播放"><span>▶ 播放</span></button>
-        <video controls playsinline preload="none" referrerpolicy="no-referrer" style="display:none"></video>
-      </div>${hints}`;
+        <div class="playbtn"><span>▶ 在 X 播放</span></div>
+      </a>`;
     }
     if(url || preview) return `<img src="${esc(url||preview)}" alt="" loading="lazy" referrerpolicy="no-referrer"/>`;
     return '';
   }).join('') + '</div>';
-}
-async function playFromBlob(wrap){
-  const url = wrap.getAttribute('data-src');
-  if(!url) return;
-  if(wrap.dataset.loaded === '1'){
-    const v = wrap.querySelector('video');
-    v && v.play();
-    return;
-  }
-  wrap.classList.add('loading');
-  wrap.classList.remove('error');
-  try{
-    const res = await fetch(url, {referrerPolicy:'no-referrer', mode:'cors', credentials:'omit'});
-    if(!res.ok) throw new Error('HTTP ' + res.status);
-    const blob = await res.blob();
-    const obj = URL.createObjectURL(blob);
-    const video = wrap.querySelector('video');
-    const poster = wrap.querySelector('.poster');
-    const btn = wrap.querySelector('.playbtn');
-    video.src = obj;
-    video.style.display = 'block';
-    if(poster) poster.style.display = 'none';
-    if(btn) btn.style.display = 'none';
-    wrap.dataset.loaded = '1';
-    await video.play();
-  }catch(e){
-    wrap.classList.add('error');
-    const btn = wrap.querySelector('.playbtn span');
-    if(btn) btn.textContent = '加载失败，点下方直链/X';
-    console.warn('video fetch failed', e);
-  }finally{
-    wrap.classList.remove('loading');
-  }
-}
-function bindVideoPlayers(root){
-  root.querySelectorAll('.vwrap[data-src]').forEach(wrap => {
-    const btn = wrap.querySelector('.playbtn');
-    if(btn) btn.addEventListener('click', () => playFromBlob(wrap));
-  });
 }
 function bodyText(it){
   const zh = it.text_zh || it.text || '';
@@ -162,7 +117,7 @@ function render(id, items, label){
       ${mediaHtml(it.media, it.url)}
       ${it.why ? `<div class="why">${esc(it.why)}</div>` : ''}
       ${it.heat ? `<div class="heat">${esc(it.heat)}</div>` : ''}
-      ${it.url ? `<a class="link" href="${esc(it.url)}" target="_blank" rel="noreferrer noopener">原文链接（可选）</a>` : ''}
+      ${it.url ? `<a class="link" href="${esc(it.url)}" target="_blank" rel="noreferrer noopener">原文链接</a>` : ''}
     </article>`).join('');
 }
 function esc(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
