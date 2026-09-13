@@ -1,0 +1,630 @@
+{
+  "date": "2026-W37",
+  "updated_at": "2026-09-13T10:03:26+08:00",
+  "kind": "weekly",
+  "period": "2026-W37",
+  "label": "2026-W37 · 9/7–9/13",
+  "related": [
+    {
+      "author": "Anthropic (@AnthropicAI)",
+      "text": "Anthropic 发布迄今最详威胁情报报告：网络攻击、舆论、监控、生物与武器等滥用及阻断。",
+      "text_zh": "Anthropic 发布迄今最详威胁情报报告：网络攻击、舆论、监控、生物与武器等滥用及阻断。",
+      "text_en": "Most detailed threat intelligence report to date—misuse for cyber, influence, surveillance, biology, weapons.",
+      "why": "模型安全/竞赛主线事件",
+      "heat": "♥44465",
+      "url": "https://x.com/AnthropicAI/status/2098097512544444447",
+      "media": []
+    },
+    {
+      "author": "Lee1ng (@lilaoshizuikeai)",
+      "text": "Anthropic 报告段子化解读：指称 Kimi 把部分请求转 Claude，敏感监控视频随之流出。",
+      "text_zh": "Anthropic 报告段子化解读：指称 Kimi 把部分请求转 Claude，敏感监控视频随之流出。",
+      "text_en": "Viral take on Anthropic report: Moonshot/Kimi allegedly forwarded some user requests (incl. sensitive cams) to Claude.",
+      "why": "中文圈 Kimi/蒸馏争议",
+      "heat": "♥6166",
+      "url": "https://x.com/lilaoshizuikeai/status/2098250521895129469",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HR56aCqbgAA27rd.jpg"
+        }
+      ]
+    },
+    {
+      "author": "Robotaxi (@robotaxi)",
+      "text": "Robotaxi 官方：奥斯汀人人可试 Cybercab，下 App 叫车即可。",
+      "text_zh": "Robotaxi 官方：奥斯汀人人可试 Cybercab，下 App 叫车即可。",
+      "text_en": "Anyone can try Cybercab in Austin — download the Robotaxi app & hail a ride.",
+      "why": "Cybercab 公共服务推进",
+      "heat": "♥6079",
+      "url": "https://x.com/robotaxi/status/2098099999888593064",
+      "media": []
+    },
+    {
+      "author": "Emanuel AOF (@Emanuel_Andre7)",
+      "text": "用 GPT-6 Astra 搞懂脚踝痛：生成可交互 3D 人体图鉴，骨头韧带肌腱、跖屈/内翻滑杆和实时读数都有。",
+      "why": "Astra 做 Human Atlas 3D，world model/3D 兴趣命中",
+      "heat": "♥5218",
+      "url": "https://x.com/Emanuel_Andre7/status/2096528986390085696",
+      "media": [
+        {
+          "type": "video",
+          "preview_url": "https://pbs.twimg.com/amplify_video_thumb/2096528732894736385/img/5eBgy_Fep7HLynql.jpg",
+          "url": "https://video.twimg.com/amplify_video/2096528732894736385/vid/avc1/1398x1080/b6WWXEbPX4YinByt.mp4"
+        }
+      ],
+      "text_en": "Okay, this is genuinely impressive. I asked GPT-6 Astra to help me understand my own ankle pain. It gave me a full interactive 3D atlas — bones, ligaments, tendons, real motion axes, sliders for plantarflexion and inversion, and a live readout of what each ligament is doing.",
+      "text_zh": "用 GPT-6 Astra 搞懂脚踝痛：生成可交互 3D 人体图鉴，骨头韧带肌腱、跖屈/内翻滑杆和实时读数都有。"
+    },
+    {
+      "author": "tobarra (@txbrraa)",
+      "text": "GitHub Spec Kit 爆火：逼 AI 先写规格再写代码，治 vibe coding 乱跑。",
+      "text_zh": "GitHub Spec Kit 爆火：逼 AI 先写规格再写代码，治 vibe coding 乱跑。",
+      "text_en": "GitHub Spec Kit forces the AI to write a structured spec instead of vague prompts—claiming 126K+ stars.",
+      "why": "AI 编程：规格驱动智能体",
+      "heat": "♥4285",
+      "url": "https://x.com/txbrraa/status/2097955506891469272",
+      "media": [
+        {
+          "type": "video",
+          "preview_url": "https://pbs.twimg.com/amplify_video_thumb/2097955425098555392/img/K5T4S1IP0MOR96A_.jpg",
+          "url": "https://video.twimg.com/amplify_video/2097955425098555392/vid/avc1/1052x720/qhxFOxwhsdLYniX9.mp4"
+        }
+      ]
+    },
+    {
+      "author": "Boris Cherny (@bcherny)",
+      "text": "Claude Code 负责人 Boris：生产代码仍要可读可审；原型可更黑盒。公开回应 vibe coding 争议。",
+      "text_zh": "Claude Code 负责人 Boris：生产代码仍要可读可审；原型可更黑盒。公开回应 vibe coding 争议。",
+      "text_en": "Boris Cherny on whether AI-written code still needs humans to read it—prototypes vs production standards.",
+      "why": "AI 编程治理核心讨论",
+      "heat": "♥3052",
+      "url": "https://x.com/bcherny/status/2098217571153838124",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HR5c1_EaMAARNnS.jpg"
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HR5c27MbgAAq0T-.jpg"
+        }
+      ]
+    },
+    {
+      "author": "Ming (@tslaming)",
+      "text": "ARK：Cybercab 是打开万亿级自动驾驶网约车帝国的「总钥匙」；奥斯汀早期价已砍 Uber 约半。",
+      "text_zh": "ARK：Cybercab 是打开万亿级自动驾驶网约车帝国的「总钥匙」；奥斯汀早期价已砍 Uber 约半。",
+      "text_en": "According to the latest ARK Invest's report, the Cybercab isn't just a new vehicle—it’s the master key to unlocking what the firm sees as a multi-trillion-dollar autonomous ride-hailing empire 🔥\n\nThe early data out of Austin is wild. Right now, a 15-minute Cybercab ride is running ~40% cheaper than taking a Model Y robotaxi, and undercutting Uber by a massive 50%. Sure, wait times are a bit longer at this stage, but the trajectory is undeniable 👍\n\nOnce this hits scale, ARK estimates fares are going to plummet to a mind-blowing $0.25 per mile. We're talking one-third the cost of owning your own car, and a tenth of what you'd pay for a human driver 🤯\n\nBut here is the real catalyst: Tesla is going to scale this beast through third parties. Right after the launch, they dropped a “Robotaxi interest form” aimed directly at commercial operators 🤝\n\nJust like ARK mapped out in \"Big Ideas 2026\", independent fleet owners are going to be the absolute backbone of this value chain, eventually owning and managing the vast majority of the network's vehicles 🆒\n\nThe transition isn't coming—it's already here 🔥",
+      "why": "Cybercab/Robotaxi 估值叙事",
+      "heat": "♥2294",
+      "url": "https://x.com/tslaming/status/2097492181569474878",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRvHhnubQAAz7IW.jpg:orig"
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRvHmlTbQAA7I7k.png:orig"
+        }
+      ]
+    },
+    {
+      "author": "Greg Diamos (@GregoryDiamos)",
+      "text": "需要 1 万 tok/s 的 CPU 小模型做数据处理，让 Claude Code 堆 token 搓出超小神经网络，还挖到三个有趣发现。",
+      "why": "小模型+Claude Code 实验，贴合 vibe coding/Anthropic",
+      "heat": "♥2192",
+      "url": "https://x.com/GregoryDiamos/status/2096873745420075020",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRmXjmCbsAAnwU9.png:orig"
+        }
+      ],
+      "text_en": "I think we should revisit outrageously small neural nets. I needed a 10k tok/s CPU model for data processing. So I gave Anthropic claude code a pile of tokens to build one. It made three interesting discoveries:",
+      "text_zh": "需要 1 万 tok/s 的 CPU 小模型做数据处理，让 Claude Code 堆 token 搓出超小神经网络，还挖到三个有趣发现。"
+    },
+    {
+      "author": "Geek (@geekbb)",
+      "text": "长文梳理 Anthropic 威胁情报：滥用 Claude + 点名阿里/DeepSeek/月之暗面等蒸馏与路由。",
+      "text_zh": "长文梳理 Anthropic 威胁情报：滥用 Claude + 点名阿里/DeepSeek/月之暗面等蒸馏与路由。",
+      "text_en": "Chinese breakdown of Anthropic’s Sept threat intel: Claude misuse and alleged distillation/routing by Chinese labs.",
+      "why": "开源/国产模型竞赛热点",
+      "heat": "♥2050",
+      "url": "https://x.com/geekbb/status/2098245964901572723",
+      "media": []
+    },
+    {
+      "author": "Higgsfield AI 🧩 (@higgsfield_ai)",
+      "text": "用 GPT-6 Astra + Higgsfield 做儿童卡通：剪辑进 Premiere，再上传 YouTube——端到端演示。",
+      "why": "Higgsfield + Astra 儿童动画全流程，AI 视频兴趣直击",
+      "heat": "♥1864",
+      "url": "https://x.com/higgsfield_ai/status/2096561374667342186",
+      "media": [
+        {
+          "type": "video",
+          "preview_url": "https://pbs.twimg.com/amplify_video_thumb/2096561146405003264/img/7jaVbL53eFH7Z2y5.jpg",
+          "url": "https://video.twimg.com/amplify_video/2096561146405003264/vid/avc1/1040x1080/IRRNubInHZhPm0wx.mp4"
+        }
+      ],
+      "text_en": "This is GPT-6 Astra making a kids’ cartoon with Higgsfield. Editing it in Premiere. uploading it to YouTube. This is actually crazy.",
+      "text_zh": "用 GPT-6 Astra + Higgsfield 做儿童卡通：剪辑进 Premiere，再上传 YouTube——端到端演示。"
+    },
+    {
+      "author": "james hawkins (@james406)",
+      "text": "梗图：「社区理发店老板也听说 Claude Code 了」。",
+      "text_zh": "梗图：「社区理发店老板也听说 Claude Code 了」。",
+      "text_en": "local barber found out about Claude Code https://t.co/OO7vCjkeeV",
+      "why": "Claude Code 出圈梗图",
+      "heat": "♥1864",
+      "url": "https://x.com/james406/status/2097399919195652223",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRt2HI1WsAAYgKd.jpg:orig"
+        }
+      ]
+    },
+    {
+      "author": "ARK Invest (@ARKInvest)",
+      "text": "ARK：Tesla 奥斯汀发布双座 Cybercab 并商业化首乘；六周内无人驾驶里程大增。",
+      "text_zh": "ARK：Tesla 奥斯汀发布双座 Cybercab 并商业化首乘；六周内无人驾驶里程大增。",
+      "text_en": "Tesla introduced Cybercab to Robotaxi fleet in Austin and commercialized first rides; unsupervised miles rose sharply.",
+      "why": "Cybercab 商业化进展",
+      "heat": "♥1734",
+      "url": "https://x.com/ARKInvest/status/2098035528046133403",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HR235y1bQAAlsbc.jpg"
+        }
+      ]
+    },
+    {
+      "author": "Miguel Ángel Durán (@midudev)",
+      "text": "4 万星 skill：让 Claude Code/Cursor/Codex 先给动作、最多 5 步、少废话。",
+      "text_zh": "4 万星 skill：让 Claude Code/Cursor/Codex 先给动作、最多 5 步、少废话。",
+      "text_en": "40k-star skill: first line = action, max 5 steps, no fluff. Works with Claude Code, Cursor, Codex.",
+      "why": "Cursor/Claude 提示工程技巧",
+      "heat": "♥1342",
+      "url": "https://x.com/midudev/status/2098427672439222506",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HR8c19mWIAgEuWZ.jpg"
+        }
+      ]
+    },
+    {
+      "author": "Jayden Douglass 💭 | AI Coach (@JaydenCoach)",
+      "text": "把 AI 视频当真正制片：不是「酷镜头」而是空间/相机/角色/下一镜；GPT-6 Astra 管线思路。",
+      "text_zh": "把 AI 视频当真正制片：不是「酷镜头」而是空间/相机/角色/下一镜；GPT-6 Astra 管线思路。",
+      "text_en": "Treating AI video like real production: not “cool shot” but “space, camera, character, next.”\n\nGPT-6 Astra sets logic → CapCut PC → Seedance 2.5 renders → CapCut PC to finish. Still post-production 😂\n\n#CapCutPC #GPT6Astra #AIVideo #Seedance25 https://t.co/Zpng1RGCtZ",
+      "why": "Astra 空间制片思维，贴合 AI 视频兴趣",
+      "heat": "♥1330",
+      "url": "https://x.com/JaydenCoach/status/2097145596561789407",
+      "media": [
+        {
+          "type": "video",
+          "preview_url": "https://pbs.twimg.com/amplify_video_thumb/2097145553482031106/img/OyTuZF1jEI84JzXw.jpg",
+          "url": "https://video.twimg.com/amplify_video/2097145553482031106/vid/avc1/720x1280/wdlAhlMKEHVnG4gP.mp4?tag=14"
+        }
+      ]
+    },
+    {
+      "author": "Higgsfield AI 🧩 (@higgsfield_ai)",
+      "text": "用 GPT-6 Astra + Blender + Higgsfield，约 20 分钟重建纽约 3D。下一座城投哪个？",
+      "why": "Astra+Blender 重建城市，贴合 3D/动效兴趣",
+      "heat": "♥1176",
+      "url": "https://x.com/higgsfield_ai/status/2096495974734794840",
+      "media": [
+        {
+          "type": "video",
+          "preview_url": "https://pbs.twimg.com/amplify_video_thumb/2096495927951499264/img/k_I_EFEIVN6Hpjdi.jpg",
+          "url": "https://video.twimg.com/amplify_video/2096495927951499264/vid/avc1/1080x1080/eboqehKO7S_LgC_c.mp4"
+        }
+      ],
+      "text_en": "we rebuilt New York in 3D in 20 minutes. GPT-6 Astra + Blender + Higgsfield. which city should we do next?",
+      "text_zh": "用 GPT-6 Astra + Blender + Higgsfield，约 20 分钟重建纽约 3D。下一座城投哪个？"
+    },
+    {
+      "author": "Dave Lee (@davelee)",
+      "text": "大家低估 Cybercab 对 Tesla 未来的意义：便宜小车迟迟不来后，自动驾驶出租车才是增长叙事。",
+      "why": "Tesla/Cybercab 深度观点",
+      "heat": "♥1161",
+      "url": "https://x.com/davelee/status/2096707456504336812",
+      "media": [
+        {
+          "type": "video",
+          "preview_url": "https://pbs.twimg.com/amplify_video_thumb/2096701924259004422/img/nwap3HYivkP6EAnW.jpg",
+          "url": "https://video.twimg.com/amplify_video/2096701924259004422/vid/avc1/1280x720/Adm7eotTQd1QSlj6.mp4"
+        }
+      ],
+      "text_en": "I think people are seriously underestimating what Cybercab means for Tesla’s future.",
+      "text_zh": "大家低估 Cybercab 对 Tesla 未来的意义：便宜小车迟迟不来后，自动驾驶出租车才是增长叙事。"
+    },
+    {
+      "author": "Polymarket (@Polymarket)",
+      "text": "快讯：字节跳动据称在开发能实时生成可交互 3D 环境的 AI「世界模型」。",
+      "text_zh": "快讯：字节跳动据称在开发能实时生成可交互 3D 环境的 AI「世界模型」。",
+      "text_en": "JUST IN: ByteDance is reportedly developing an AI “world model” that can generate interactive 3D environments in real time.",
+      "why": "字节 world model 传闻，贴合空间/世界模型兴趣",
+      "heat": "♥1102",
+      "url": "https://x.com/Polymarket/status/2096978995107565732",
+      "media": []
+    },
+    {
+      "author": "Ken Maeda 前田謙一郎 (@Kenmaeda77)",
+      "text": "Cybercab 现身日本青山，媒体扎堆——Robotaxi 海外曝光升温。",
+      "text_zh": "Cybercab 现身日本青山，媒体扎堆——Robotaxi 海外曝光升温。",
+      "text_en": "Tesla Cybercab has arrived in Japan — media packed Aoyama; attention already huge.",
+      "why": "Cybercab 出海日本",
+      "heat": "♥1084",
+      "url": "https://x.com/Kenmaeda77/status/2098228421017194856",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HR5nnAgaAAA9vWi.jpg"
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HR5nnAcbUAAptLL.jpg"
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HR5nnAnaUAAeiZX.jpg"
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HR5nnASa4AA1bmA.jpg"
+        }
+      ]
+    },
+    {
+      "author": "Nicolas Bustamante (@nicbstme)",
+      "text": "梗文：把 2027 诺奖菲尔兹奖图灵奖全颁给 Codex/Claude Code/Copilot——恭喜所有只会打 keep going 的人。",
+      "text_zh": "梗文：把 2027 诺奖菲尔兹奖图灵奖全颁给 Codex/Claude Code/Copilot——恭喜所有只会打 keep going 的人。",
+      "text_en": "Ladies and gentlemen, your 2027 winners:\n\n• Nobel Prize in Chemistry: ChatGPT Codex\n• Fields Medal: Claude Code\n• Turing Award: Copilot\n• Millennium Prize, P vs NP: Codex\n• Pulitzer Prize: ChatGPT Codex\n• Oscar for Best Original Screenplay: Copilot\n• Pritzker Architecture Prize: ChatGPT Codex\n• Grammy for Song of the Year: Claude Code\n• Nobel Peace Prize: Copilot\n\nCongratulations to everyone who typed “keep going.”",
+      "why": "Codex/Claude Code 梗，模型竞赛氛围",
+      "heat": "♥1079",
+      "url": "https://x.com/nicbstme/status/2097431587537465761",
+      "media": []
+    },
+    {
+      "author": "Devin Olsen (@DevinOlsenn)",
+      "text": "30+ 次 Cybercab 乘车反馈：车和 Robotaxi App 成熟度惊人，细节吐槽也写全了。",
+      "why": "Cybercab 实乘一手体验",
+      "heat": "♥1065",
+      "url": "https://x.com/DevinOlsenn/status/2096465082704339367",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRgj4KFaEAAhx9N.jpg:orig"
+        }
+      ],
+      "text_en": "My feedback after 30+ Cybercab rides. Blown away with the cybercab and the Robotaxi app — amazing how mature this vehicle and service feel already.",
+      "text_zh": "30+ 次 Cybercab 乘车反馈：车和 Robotaxi App 成熟度惊人，细节吐槽也写全了。"
+    }
+  ],
+  "hot": [
+    {
+      "author": "Pop Base (@PopBase)",
+      "text": "巴勒斯坦设计师 Yasmeen Mjalli 称面料被毁品牌濒临倒闭，Olivia Rodrigo 委托礼服救场 Daisy Chains 开幕。",
+      "why": "全站热：流行娱乐大号故事",
+      "heat": "♥67179",
+      "url": "https://x.com/PopBase/status/2097115965721039347",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRpz2tNbMAARzyc.jpg:orig"
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRpz2tLb0AA-dNA.jpg:orig"
+        }
+      ],
+      "text_en": "Palestinian designer Yasmeen Mjalli reveals she was on the brink of closing her fashion brand, Nöl Collective, after Israeli customs destroyed one of their fabric shipments — until Olivia Rodrigo commissioned a dress to inaugurate her Daisy Chains festival. “I was genuinely like, maybe we should stop, maybe this is our last effort. I was just so tired. [But Rodrigo’s commission] was like divine intervention. Obstacles are always going to be there, but if you can adapt you will be rewarded. I rise and I rise and I rise.” ()",
+      "text_zh": "巴勒斯坦设计师 Yasmeen Mjalli 称面料被毁品牌濒临倒闭，Olivia Rodrigo 委托礼服救场 Daisy Chains 开幕。"
+    },
+    {
+      "author": "Pop Base (@PopBase)",
+      "text": "Ciara 官宣怀上第五个孩子。",
+      "why": "全站热：娱乐大号",
+      "heat": "♥46786",
+      "url": "https://x.com/PopBase/status/2096736682108416477",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRka5bsakAAbAbt.jpg:orig"
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRka5bsbQAAas0H.jpg:orig"
+        }
+      ],
+      "text_en": "Ciara announces she's expecting her fifth child.",
+      "text_zh": "Ciara 官宣怀上第五个孩子。"
+    },
+    {
+      "author": "Pop Base (@PopBase)",
+      "text": "Lady Gaga 与未婚夫 Michael Polansky 迎来第一个孩子（PageSix）。",
+      "text_zh": "Lady Gaga 与未婚夫 Michael Polansky 迎来第一个孩子（PageSix）。",
+      "text_en": "Lady Gaga and Michael Polansky have welcomed their first child together, PageSix reports.",
+      "why": "全站顶流娱乐热",
+      "heat": "♥40992",
+      "url": "https://x.com/PopBase/status/2098576177015197862",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HR-j6QLXoAgxvNv.jpg"
+        }
+      ]
+    },
+    {
+      "author": "DiscussingFilm (@DiscussingFilm)",
+      "text": "Nicolas Cage 回应《Spider-Noir》一季后取消：一季刚好，危险、创新的流行艺术蜘蛛侠说完了。",
+      "why": "全站热：影视",
+      "heat": "♥34010",
+      "url": "https://x.com/DiscussingFilm/status/2096738763338596841",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRkcyp7aEAA2Gaj.jpg:orig"
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRkcypfXYAAs2PU.jpg:orig"
+        }
+      ],
+      "text_en": "Nicolas Cage has reacted to ‘SPIDER-NOIR’ being cancelled after 1 season: “For me, one season is perfect…”",
+      "text_zh": "Nicolas Cage 回应《Spider-Noir》一季后取消：一季刚好，危险、创新的流行艺术蜘蛛侠说完了。"
+    },
+    {
+      "author": "Nick shirley (@nickshirleyy)",
+      "text": "调查记者 Nick Shirley 称因曝光与校园演讲面临威胁，需再募安全经费（约每月 3–5 万美元），捐款免税用于安保。",
+      "text_zh": "调查记者 Nick Shirley 称因曝光与校园演讲面临威胁，需再募安全经费（约每月 3–5 万美元），捐款免税用于安保。",
+      "text_en": "I hate that I have to do this, it’s my least favorite part about my life. I knew my life would get even more dangerous when I announced I am suing California and began accepting invitations to speak on college campuses this semester.\n\nI need to raise money again for security. Doing the right thing and exposing evil now puts your life in danger in today’s society. For example, a UC Irvine “lecturer” (teacher) is insinuating it would be funny to assassinate me and leftist are threatening to kill me constantly. \n\nI will not cower to the radicals or the far left who threaten and plot to kill and destroy our country, yet the $30k–$50k a month it costs me just to stay safe doing my job is unsustainable. I make enough for my needs and my employees, but this added expense produces no return and is unsustainable on my own. \n\nIf you can donate, please donate here: https://t.co/t17KpayiXW Donations are tax-deductible and go strictly toward security/operations, anything helps. If you cannot donate no worries please like and share this so more may see it!\n\nGod bless,\nNick",
+      "why": "近3万赞，安全募捐话题全站顶流",
+      "heat": "♥30003",
+      "url": "https://x.com/nickshirleyy/status/2097395908245856705",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRtydk6bQAAkup4.jpg:orig"
+        }
+      ]
+    },
+    {
+      "author": "NFL Memes (@NFLMemes)",
+      "text": "Sam Darnold 的 2026 赛季开幕高光梗视频，开赛夜全站刷屏。",
+      "text_zh": "Sam Darnold 的 2026 赛季开幕高光梗视频，开赛夜全站刷屏。",
+      "text_en": "Sam Darnold’s 2026 season https://t.co/58yfvrwaUY",
+      "why": "全站热：NFL 开幕高赞视频 ♥近3万",
+      "heat": "♥29894",
+      "url": "https://x.com/NFLMemes/status/2097848017550241846",
+      "media": [
+        {
+          "type": "video",
+          "preview_url": "https://pbs.twimg.com/amplify_video_thumb/2097847966493257728/img/PxZ20KR45V7SCNYt.jpg",
+          "url": "https://video.twimg.com/amplify_video/2097847966493257728/vid/avc1/1920x1080/j6F77aXfHQi13QsW.mp4"
+        }
+      ]
+    },
+    {
+      "author": "WOR$T GIRL IN AMERICA (@slayyyter)",
+      "text": "slayyyter 释出《crank 2》音乐视频。",
+      "why": "全站热：流行歌手新曲 MV",
+      "heat": "♥27835",
+      "url": "https://x.com/slayyyter/status/2097121414792786125",
+      "media": [
+        {
+          "type": "video",
+          "preview_url": "https://pbs.twimg.com/amplify_video_thumb/2097121217639522304/img/qoaAoYJ6q60y7SZU.jpg",
+          "url": "https://video.twimg.com/amplify_video/2097121217639522304/vid/avc1/3840x2160/_stocM3mwBY5H7Ls.mp4"
+        }
+      ],
+      "text_en": "crank 2",
+      "text_zh": "slayyyter 释出《crank 2》音乐视频。"
+    },
+    {
+      "author": "vas (@vasuman)",
+      "text": "段子：Anthropic/OpenAI 互称要弄死对方，Meta 要 iMessage 数据，Google 刷「打赢 Haiku」标题。",
+      "text_zh": "段子：Anthropic/OpenAI 互称要弄死对方，Meta 要 iMessage 数据，Google 刷「打赢 Haiku」标题。",
+      "text_en": "Anthropic: We are going to kill you / OpenAI: We are going to kill you first / Meta: iMessage data? / Google: OUR MODEL BEAT CLAUDE 3.5 HAIKU",
+      "why": "AI 厂牌互怼梗图热",
+      "heat": "♥26614",
+      "url": "https://x.com/vasuman/status/2098259696943767897",
+      "media": []
+    },
+    {
+      "author": "Jeff (@JeffFcb14)",
+      "text": "梅西与莱万赛前交谈视频：「要幸福哭了」。",
+      "text_zh": "梅西与莱万赛前交谈视频：「要幸福哭了」。",
+      "text_en": "Messi y Lewa hablando antes del partido, voy a llorar de la felicidad  https://t.co/DL1pSQCD5B",
+      "why": "全站热：足球名场面视频",
+      "heat": "♥26221",
+      "url": "https://x.com/JeffFcb14/status/2097848063494611370",
+      "media": [
+        {
+          "type": "video",
+          "preview_url": "https://pbs.twimg.com/amplify_video_thumb/2097847904794820608/img/gMjfvJ0oOKfTPBfN.jpg",
+          "url": "https://video.twimg.com/amplify_video/2097847904794820608/vid/avc1/1920x1080/aEEHf_I3WujCdm8V.mp4"
+        }
+      ]
+    },
+    {
+      "author": "Film Updates (@FilmUpdates)",
+      "text": "Lady Gaga 正式当妈——短讯配图刷屏。",
+      "text_zh": "Lady Gaga 正式当妈——短讯配图刷屏。",
+      "text_en": "Lady Gaga is officially a mother!",
+      "why": "同题高互动扩散",
+      "heat": "♥26167",
+      "url": "https://x.com/FilmUpdates/status/2098574894074376228",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HR-ivnIa8AAg6XF.jpg"
+        }
+      ]
+    },
+    {
+      "author": "Cousin Sal (@TheCousinSal)",
+      "text": "爱国者开场对上首发 QB 几分钟就「回到熟悉剧本」——开赛夜段子。",
+      "text_zh": "爱国者开场对上首发 QB 几分钟就「回到熟悉剧本」——开赛夜段子。",
+      "text_en": "The Pats were in unfamiliar territory there for a few minutes playing against a starting QB. Glad to see everything’s status quo.",
+      "why": "全站热：NFL 段子高赞",
+      "heat": "♥25488",
+      "url": "https://x.com/TheCousinSal/status/2097848226452017582",
+      "media": []
+    },
+    {
+      "author": "ESPN (@espn)",
+      "text": "ESPN：传奇冰球解说 Barry Melrose 去世，享年 70。",
+      "text_zh": "ESPN：传奇冰球解说 Barry Melrose 去世，享年 70。",
+      "text_en": "Barry Melrose, the former NHL player and coach who was a beloved, longtime hockey analyst for ESPN, died Wednesday, his wife, Cindy, told ESPN's Steve Levy. He was 70. https://t.co/68PGbK6rkI",
+      "why": "全站热：体育界悼念",
+      "heat": "♥25109",
+      "url": "https://x.com/espn/status/2097851665944600729",
+      "media": []
+    },
+    {
+      "author": "BucciOT.Com (@Buccigross)",
+      "text": "同事悼文：Barry 是我在 ESPN 最好的朋友，像大哥一样。",
+      "text_zh": "同事悼文：Barry 是我在 ESPN 最好的朋友，像大哥一样。",
+      "text_en": "Barry was my best friend at ESPN. A big brother figure of rock solid values. I am shook to my core. Barry gave his life to hockey and some of his ESPN family, like me, learned of his shocking death today while at a hockey rink in Las Vegas preparing for the upcoming season. https://t.co/x1zV1b4z87",
+      "why": "全站热：悼念续热",
+      "heat": "♥24708",
+      "url": "https://x.com/Buccigross/status/2097850124194185723",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HR0PkPWa0AAgeMI.jpg:orig"
+        }
+      ]
+    },
+    {
+      "author": "Ari Meirov (@MySportsUpdate)",
+      "text": "可能是我这辈子见过最离谱的 punt。",
+      "why": "全站热：体育高光",
+      "heat": "♥24143",
+      "url": "https://x.com/MySportsUpdate/status/2096761277896946121",
+      "media": [
+        {
+          "type": "video",
+          "preview_url": "https://pbs.twimg.com/amplify_video_thumb/2096760936086249474/img/WYGh6cJUcpCAxiVS.jpg",
+          "url": "https://video.twimg.com/amplify_video/2096760936086249474/vid/avc1/1152x636/22NFP1E2GrozxEbL.mp4"
+        }
+      ],
+      "text_en": "This might be the greatest punt I’ve ever seen in my life.",
+      "text_zh": "可能是我这辈子见过最离谱的 punt。"
+    },
+    {
+      "author": "쫑꾸 (@jeonghanwife0)",
+      "text": "韩网：TikTok 上看到的真的太好笑了（视频）。",
+      "why": "全站热：短视频搞笑",
+      "heat": "♥22621",
+      "url": "https://x.com/jeonghanwife0/status/2097096706542498291",
+      "media": [
+        {
+          "type": "video",
+          "preview_url": "https://pbs.twimg.com/amplify_video_thumb/2097096669435490304/img/1zHJBA8ziUkbniEZ.jpg",
+          "url": "https://video.twimg.com/amplify_video/2097096669435490304/vid/avc1/720x1280/941DwIG_ecAYLoJP.mp4"
+        }
+      ],
+      "text_en": "틱톡에서 본건데 진짜ㅋㅋㅋㅋㅋㅋㅋㅋ너뮤웃김",
+      "text_zh": "韩网：TikTok 上看到的真的太好笑了（视频）。"
+    },
+    {
+      "author": "Indie 505 (@Indie5051)",
+      "text": "男孩报警说叔叔推倒他；警察到场发现「叔叔」只有 5 岁。",
+      "why": "全站热：暖心/搞笑新闻图",
+      "heat": "♥22335",
+      "url": "https://x.com/Indie5051/status/2097110227946545360",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRpuowlWoAAR6tU.jpg:orig"
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRpuoxOagAAoaBl.jpg:orig"
+        }
+      ],
+      "text_en": "Niño fue a la policía a denunciar que su tío lo empujó al suelo. Al llegar al lugar, el policía descubrió que el tío solo tenía 5 años.",
+      "text_zh": "男孩报警说叔叔推倒他；警察到场发现「叔叔」只有 5 岁。"
+    },
+    {
+      "author": "Ben Stevens (@BenScottStevens)",
+      "text": "今晚这比赛时钟我绝不信——赛场计时翻车图。",
+      "why": "全站热：体育计时翻车",
+      "heat": "♥20104",
+      "url": "https://x.com/BenScottStevens/status/2097109436997443820",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRpt6wLacAATE-c.jpg:orig"
+        }
+      ],
+      "text_en": "I’ll tell you one thing. There’s not a chance I’m trusting this game clock tonight.",
+      "text_zh": "今晚这比赛时钟我绝不信——赛场计时翻车图。"
+    },
+    {
+      "author": "Pietro Reis (@_pietroreis)",
+      "text": "巴西网友：都在猜谁最会玩新屏幕科技——显然是 Gilberto Gil。",
+      "why": "全站热：演唱会大屏视觉刷屏",
+      "heat": "♥19899",
+      "url": "https://x.com/_pietroreis/status/2097120260851687650",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRp3wNybQAA2sdy.jpg:orig"
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRp3wNyaEAAEYu1.jpg:orig"
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRp3wN_aAAANdDD.jpg:orig"
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRp3wNMWkAA4zIm.jpg:orig"
+        }
+      ],
+      "text_en": "especulou-se tanto sobre quem usaria melhor a tecnologia do novo telão… é óbvio que seria Gilberto Gil",
+      "text_zh": "巴西网友：都在猜谁最会玩新屏幕科技——显然是 Gilberto Gil。"
+    },
+    {
+      "author": "Connor Storrie Updates (@connorstupdates)",
+      "text": "Connor Storrie 和母亲 Linda 现身艾美奖。",
+      "why": "全站热：艾美红毯",
+      "heat": "♥19865",
+      "url": "https://x.com/connorstupdates/status/2096746380198814138",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRkjsWIa4AA04G9.jpg:orig"
+        }
+      ],
+      "text_en": "Connor Storrie and his mother, Linda Storrie, at the Emmy Awards!",
+      "text_zh": "Connor Storrie 和母亲 Linda 现身艾美奖。"
+    },
+    {
+      "author": "JonathanPT ✞ (@JPT_Arts)",
+      "text": "is this what you wanted?",
+      "why": "全站热：艺术图高互动",
+      "heat": "♥19816",
+      "url": "https://x.com/JPT_Arts/status/2096735455442080216",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRkZqoFWUAARdhv.png"
+        }
+      ],
+      "text_en": "is this what you wanted?",
+      "text_zh": "is this what you wanted?"
+    }
+  ]
+}
